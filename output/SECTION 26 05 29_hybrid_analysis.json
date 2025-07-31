@@ -1,0 +1,2458 @@
+{
+  "document_info": {
+    "path": "examples/SECTION 26 05 29.docx",
+    "filename": "SECTION 26 05 29.docx",
+    "total_paragraphs": 242
+  },
+  "structure_analysis": {
+    "numbered_paragraphs": 73,
+    "inferred_paragraphs": 55,
+    "unnumbered_paragraphs": 114,
+    "total_numbered": 128,
+    "numbering_percentage": 52.892561983471076
+  },
+  "numbering_patterns": {
+    "1.": 3,
+    "2.": 3,
+    "3.": 3,
+    "4.": 3,
+    "5.": 3,
+    "6.": 3,
+    "7.": 3,
+    "8.": 3,
+    "9.": 2,
+    "10.": 2,
+    "11.": 1,
+    "12.": 1,
+    "13.": 1,
+    "14.": 1,
+    "A.": 3,
+    "B.": 3,
+    "C.": 2,
+    "D.": 2,
+    "E.": 2,
+    "F.": 2,
+    "G.": 2,
+    "H.": 2,
+    "I.": 2,
+    "J.": 1,
+    "K.": 1,
+    "L.": 1,
+    "M.": 1,
+    "N.": 1,
+    "O.": 1,
+    "P.": 1,
+    "Q.": 1,
+    "R.": 1,
+    "S.": 1,
+    "T.": 1,
+    "U.": 1,
+    "a.": 1,
+    "b.": 1,
+    "c.": 1,
+    "d.": 1,
+    "e.": 1,
+    "f.": 1,
+    "g.": 1,
+    "h.": 1,
+    "i.": 1
+  },
+  "inferred_patterns": {
+    "1.0": 1,
+    "1.01": 1,
+    "A.": 2,
+    "B.": 2,
+    "2.0": 1,
+    "2.01": 1,
+    "1.": 2,
+    "2.": 2,
+    "3.": 2,
+    "4.": 2,
+    "5.": 2,
+    "6.": 2,
+    "7.": 2,
+    "8.": 2,
+    "9.": 1,
+    "10.": 2,
+    "11.": 2,
+    "C.": 2,
+    "D.": 1,
+    "E.": 1,
+    "F.": 1,
+    "a.": 3,
+    "b.": 3,
+    "c.": 3,
+    "d.": 2,
+    "e.": 2,
+    "f.": 1,
+    "15.": 1,
+    "3.0": 1,
+    "3.01": 1,
+    "3.02": 1,
+    "J.": 1,
+    "K.": 1,
+    "3.03": 1
+  },
+  "sample_paragraphs": [
+    {
+      "index": 0,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "SECTION 26-05-29",
+      "combined": "SECTION 26-05-29",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 1,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 2,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "HANGERS AND SUPPORTS FOR ELECTRICAL SYSTEMS ",
+      "combined": "HANGERS AND SUPPORTS FOR ELECTRICAL SYSTEMS ",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 3,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 4,
+      "list_number": "",
+      "inferred_number": "1.0",
+      "text": "1.0\tGENERAL",
+      "combined": "1.0\tGENERAL",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 5,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 6,
+      "list_number": "",
+      "inferred_number": "1.01",
+      "text": "1.01\tDESCRIPTION",
+      "combined": "1.01\tDESCRIPTION",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 7,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 8,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAll work specified in this Section shall comply with the provisions of Section 26-05-00.",
+      "combined": "\tA.\tAll work specified in this Section shall comply with the provisions of Section 26-05-00.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 9,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 10,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tThis Section describes the basic electrical materials and installation methods that are acceptab...",
+      "combined": "\tB.\tThis Section describes the basic electrical materials and installation methods that are acceptab...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 11,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 12,
+      "list_number": "",
+      "inferred_number": "2.0",
+      "text": "2.0\tPRODUCTS",
+      "combined": "2.0\tPRODUCTS",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 13,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 14,
+      "list_number": "",
+      "inferred_number": "2.01",
+      "text": "2.01      SUPPORT, ANCHORAGE, AND ATTACHMENT COMPONENTS ",
+      "combined": "2.01      SUPPORT, ANCHORAGE, AND ATTACHMENT COMPONENTS ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 15,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 16,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "A. \t\tSteel Slotted Support Systems: Comply with MFMA-4, factory-fabricated components for field asse...",
+      "combined": "A. \t\tSteel Slotted Support Systems: Comply with MFMA-4, factory-fabricated components for field asse...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 17,
+      "list_number": "",
+      "inferred_number": "1.",
+      "text": "1. \tAllied Tube & Conduit ",
+      "combined": "1. \tAllied Tube & Conduit ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 18,
+      "list_number": "",
+      "inferred_number": "2.",
+      "text": "2. \tCaddy ",
+      "combined": "2. \tCaddy ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 19,
+      "list_number": "",
+      "inferred_number": "3.",
+      "text": "3. \tCooper B-Line, Inc.; a division of Cooper Industries ",
+      "combined": "3. \tCooper B-Line, Inc.; a division of Cooper Industries ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    }
+  ],
+  "all_paragraphs": [
+    {
+      "index": 0,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "SECTION 26-05-29",
+      "combined": "SECTION 26-05-29",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 1,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 2,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "HANGERS AND SUPPORTS FOR ELECTRICAL SYSTEMS ",
+      "combined": "HANGERS AND SUPPORTS FOR ELECTRICAL SYSTEMS ",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 3,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 4,
+      "list_number": "",
+      "inferred_number": "1.0",
+      "text": "1.0\tGENERAL",
+      "combined": "1.0\tGENERAL",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 5,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 6,
+      "list_number": "",
+      "inferred_number": "1.01",
+      "text": "1.01\tDESCRIPTION",
+      "combined": "1.01\tDESCRIPTION",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 7,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 8,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAll work specified in this Section shall comply with the provisions of Section 26-05-00.",
+      "combined": "\tA.\tAll work specified in this Section shall comply with the provisions of Section 26-05-00.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 9,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 10,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tThis Section describes the basic electrical materials and installation methods that are acceptable and applicable to Division 26.",
+      "combined": "\tB.\tThis Section describes the basic electrical materials and installation methods that are acceptable and applicable to Division 26.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 11,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 12,
+      "list_number": "",
+      "inferred_number": "2.0",
+      "text": "2.0\tPRODUCTS",
+      "combined": "2.0\tPRODUCTS",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 13,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 14,
+      "list_number": "",
+      "inferred_number": "2.01",
+      "text": "2.01      SUPPORT, ANCHORAGE, AND ATTACHMENT COMPONENTS ",
+      "combined": "2.01      SUPPORT, ANCHORAGE, AND ATTACHMENT COMPONENTS ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 15,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 16,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "A. \t\tSteel Slotted Support Systems: Comply with MFMA-4, factory-fabricated components for field assembly. Construct with 9/16\" dia. holes, nominal 2\" o.c. on top surface, with standard factory finish, and with the all necessary fittings which mate and match with U-channel. Select channel dimensions for applicable load criteria. Metallic Coatings shall be hot-dip galvanized after fabrication with threading applied accordance to MFMA-4. Subject to compliance with requirements, manufacturers offering products that may be incorporated into the Work include, but are not limited to, the following: ",
+      "combined": "A. \t\tSteel Slotted Support Systems: Comply with MFMA-4, factory-fabricated components for field assembly. Construct with 9/16\" dia. holes, nominal 2\" o.c. on top surface, with standard factory finish, and with the all necessary fittings which mate and match with U-channel. Select channel dimensions for applicable load criteria. Metallic Coatings shall be hot-dip galvanized after fabrication with threading applied accordance to MFMA-4. Subject to compliance with requirements, manufacturers offering products that may be incorporated into the Work include, but are not limited to, the following: ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 17,
+      "list_number": "",
+      "inferred_number": "1.",
+      "text": "1. \tAllied Tube & Conduit ",
+      "combined": "1. \tAllied Tube & Conduit ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 18,
+      "list_number": "",
+      "inferred_number": "2.",
+      "text": "2. \tCaddy ",
+      "combined": "2. \tCaddy ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 19,
+      "list_number": "",
+      "inferred_number": "3.",
+      "text": "3. \tCooper B-Line, Inc.; a division of Cooper Industries ",
+      "combined": "3. \tCooper B-Line, Inc.; a division of Cooper Industries ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 20,
+      "list_number": "",
+      "inferred_number": "4.",
+      "text": "4. \tERICO International Corporation ",
+      "combined": "4. \tERICO International Corporation ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 21,
+      "list_number": "",
+      "inferred_number": "5.",
+      "text": "5. \tGS Metals Corporation ",
+      "combined": "5. \tGS Metals Corporation ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 22,
+      "list_number": "",
+      "inferred_number": "6.",
+      "text": "6. \tHilti ",
+      "combined": "6. \tHilti ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 23,
+      "list_number": "",
+      "inferred_number": "7.",
+      "text": "7. \tPowers ",
+      "combined": "7. \tPowers ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 24,
+      "list_number": "",
+      "inferred_number": "8.",
+      "text": "8. \tThomas & Betts Corporation ",
+      "combined": "8. \tThomas & Betts Corporation ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 25,
+      "list_number": "",
+      "inferred_number": "9.",
+      "text": "9. \tUnistrut; Tyco International, Ltd. ",
+      "combined": "9. \tUnistrut; Tyco International, Ltd. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 26,
+      "list_number": "",
+      "inferred_number": "10.",
+      "text": "10. \tWesanco, Inc. ",
+      "combined": "10. \tWesanco, Inc. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 27,
+      "list_number": "",
+      "inferred_number": "11.",
+      "text": "11.\tPerma-Cote ",
+      "combined": "11.\tPerma-Cote ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 28,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 29,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "B. \tRaceway and Cable Supports: As described in NECA 1 and NECA 101. ",
+      "combined": "B. \tRaceway and Cable Supports: As described in NECA 1 and NECA 101. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 30,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 31,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "C. \tConduit and Cable Support Devices: Steel hangers, clamps, and associated fittings, designed for types and sizes of raceway or cable to be supported. ",
+      "combined": "C. \tConduit and Cable Support Devices: Steel hangers, clamps, and associated fittings, designed for types and sizes of raceway or cable to be supported. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 32,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 33,
+      "list_number": "",
+      "inferred_number": "1.",
+      "text": "1.\tRiser clamps for supporting rigid metal conduit; galvanized steel; with 2 bolts and nuts, and 4\" ears. ",
+      "combined": "1.\tRiser clamps for supporting rigid metal conduit; galvanized steel; with 2 bolts and nuts, and 4\" ears. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 34,
+      "list_number": "",
+      "inferred_number": "2.",
+      "text": "2. \tClevis hangers: For supporting rigid metal conduit; galvanized steel; with 1/2\" dia. hole for round steel rod. ",
+      "combined": "2. \tClevis hangers: For supporting rigid metal conduit; galvanized steel; with 1/2\" dia. hole for round steel rod. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 35,
+      "list_number": "",
+      "inferred_number": "3.",
+      "text": "3. \tGalvanized steel clamps; 1/2\" rod size. ",
+      "combined": "3. \tGalvanized steel clamps; 1/2\" rod size. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 36,
+      "list_number": "",
+      "inferred_number": "4.",
+      "text": "4. \tGalvanized steel clamps, 1-1/4\" x 3/16\" stock; 3/8\" cross bolt; flange width 2\". ",
+      "combined": "4. \tGalvanized steel clamps, 1-1/4\" x 3/16\" stock; 3/8\" cross bolt; flange width 2\". ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 37,
+      "list_number": "",
+      "inferred_number": "5.",
+      "text": "5. \tOne-hole conduit straps for supporting 3/4\" rigid metal conduit; galvanized steel. ",
+      "combined": "5. \tOne-hole conduit straps for supporting 3/4\" rigid metal conduit; galvanized steel. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 38,
+      "list_number": "",
+      "inferred_number": "6.",
+      "text": "6. \tTwo-hole conduit straps for supporting 3/4\" rigid metal conduit, galvanized steel; 3/4\" strap width; and 2-1/8\" between center of screw holes. ",
+      "combined": "6. \tTwo-hole conduit straps for supporting 3/4\" rigid metal conduit, galvanized steel; 3/4\" strap width; and 2-1/8\" between center of screw holes. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 39,
+      "list_number": "",
+      "inferred_number": "7.",
+      "text": "7. \tOffset conduit clamps for supporting rigid metal conduit; galvanized steel. ",
+      "combined": "7. \tOffset conduit clamps for supporting rigid metal conduit; galvanized steel. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 40,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 41,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "D. \tSupport for Conductors in Vertical Conduit: Factory-fabricated assembly consisting of threaded body and insulating wedging plug or plugs for non-armored electrical conductors or cables in riser conduits. Plugs shall have number, size, and shape of conductor gripping pieces as required to suit individual conductors or cables supported. Body shall be malleable iron. ",
+      "combined": "D. \tSupport for Conductors in Vertical Conduit: Factory-fabricated assembly consisting of threaded body and insulating wedging plug or plugs for non-armored electrical conductors or cables in riser conduits. Plugs shall have number, size, and shape of conductor gripping pieces as required to suit individual conductors or cables supported. Body shall be malleable iron. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 42,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 43,
+      "list_number": "",
+      "inferred_number": "E.",
+      "text": "E. \tStructural Steel for Fabricated Supports and Restraints: ASTM A 36/A 36M, steel plates, shapes, and bars; black and galvanized. ",
+      "combined": "E. \tStructural Steel for Fabricated Supports and Restraints: ASTM A 36/A 36M, steel plates, shapes, and bars; black and galvanized. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 44,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 45,
+      "list_number": "",
+      "inferred_number": "F.",
+      "text": "F. \tMounting, Anchoring, and Attachment Components: Items for fastening electrical items or their supports to building surfaces include the following. ",
+      "combined": "F. \tMounting, Anchoring, and Attachment Components: Items for fastening electrical items or their supports to building surfaces include the following. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 46,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 47,
+      "list_number": "1.",
+      "inferred_number": null,
+      "text": "Products: Subject to compliance with requirements, manufacturers offering products that may be incorporated into the Work include, but are not limited to, the following: ",
+      "combined": "1.\tProducts: Subject to compliance with requirements, manufacturers offering products that may be incorporated into the Work include, but are not limited to, the following: ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 48,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 49,
+      "list_number": "",
+      "inferred_number": "a.",
+      "text": "a. \tCooper B-Line, Inc.; a division of Cooper Industries. ",
+      "combined": "a. \tCooper B-Line, Inc.; a division of Cooper Industries. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 50,
+      "list_number": "",
+      "inferred_number": "b.",
+      "text": "b. \tEmpire Tool and Manufacturing Co., Inc. ",
+      "combined": "b. \tEmpire Tool and Manufacturing Co., Inc. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 51,
+      "list_number": "",
+      "inferred_number": "c.",
+      "text": "c. \tHilti, Inc. ",
+      "combined": "c. \tHilti, Inc. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 52,
+      "list_number": "",
+      "inferred_number": "d.",
+      "text": "d.\tITW Ramset/Red Head; a division of Illinois Tool Works, Inc. ",
+      "combined": "d.\tITW Ramset/Red Head; a division of Illinois Tool Works, Inc. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 53,
+      "list_number": "",
+      "inferred_number": "e.",
+      "text": "e. \tMKT Fastening, LLC. ",
+      "combined": "e. \tMKT Fastening, LLC. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 54,
+      "list_number": "",
+      "inferred_number": "f.",
+      "text": "f. \tSimpson Strong-Tie Co., Inc. ",
+      "combined": "f. \tSimpson Strong-Tie Co., Inc. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 55,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 56,
+      "list_number": "2.",
+      "inferred_number": null,
+      "text": "Capacities: Provide materials and installed systems with tension, shear, and pullout capacities appropriate for supported loads and building materials in which used, plus 100% safety factor. ",
+      "combined": "2.\tCapacities: Provide materials and installed systems with tension, shear, and pullout capacities appropriate for supported loads and building materials in which used, plus 100% safety factor. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 57,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 58,
+      "list_number": "3.",
+      "inferred_number": null,
+      "text": "Adverse and/or Corrosive Environment Areas: Provide stainless steel anchors. Provide hot-dipped galvanized (after fabrication) product and material versions of what is specified in this section for steel hangers, supports, systems, etc. (supported from stainless steel anchors), unless stainless steel is specified or otherwise indicated. Such applications and areas include, but are not limited to: ",
+      "combined": "3.\tAdverse and/or Corrosive Environment Areas: Provide stainless steel anchors. Provide hot-dipped galvanized (after fabrication) product and material versions of what is specified in this section for steel hangers, supports, systems, etc. (supported from stainless steel anchors), unless stainless steel is specified or otherwise indicated. Such applications and areas include, but are not limited to: ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 59,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 60,
+      "list_number": "",
+      "inferred_number": "a.",
+      "text": "a. \tOutdoors. ",
+      "combined": "a. \tOutdoors. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 61,
+      "list_number": "",
+      "inferred_number": "b.",
+      "text": "b. \tUnconditioned Areas. ",
+      "combined": "b. \tUnconditioned Areas. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 62,
+      "list_number": "",
+      "inferred_number": "c.",
+      "text": "c. \tGarages, including ancillary garage rooms/areas. ",
+      "combined": "c. \tGarages, including ancillary garage rooms/areas. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 63,
+      "list_number": "",
+      "inferred_number": "d.",
+      "text": "d. \tShower areas. ",
+      "combined": "d. \tShower areas. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 64,
+      "list_number": "",
+      "inferred_number": "e.",
+      "text": "e. \tMiscellaneous high-humidity or otherwise corrosive environments. ",
+      "combined": "e. \tMiscellaneous high-humidity or otherwise corrosive environments. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 65,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 66,
+      "list_number": "4.",
+      "inferred_number": null,
+      "text": "Mechanical-Expansion Anchors in Dry Conditioned Areas: Insert-wedge-type, zinc-coated steel, for use in hardened Portland cement. Provide stainless steel anchors where located in areas subject to moisture or corrosion. ",
+      "combined": "4.\tMechanical-Expansion Anchors in Dry Conditioned Areas: Insert-wedge-type, zinc-coated steel, for use in hardened Portland cement. Provide stainless steel anchors where located in areas subject to moisture or corrosion. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 67,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 68,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "EXAMPLE OF CONTENT BLOCK WITH NO LIST LEVEL",
+      "combined": "EXAMPLE OF CONTENT BLOCK WITH NO LIST LEVEL",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 69,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 70,
+      "list_number": "5.",
+      "inferred_number": null,
+      "text": "Drop-In Anchors: AISI Type 303 steel, drop-in, shell or flush type, equivalent to Hilti HDI series.",
+      "combined": "5.\tDrop-In Anchors: AISI Type 303 steel, drop-in, shell or flush type, equivalent to Hilti HDI series.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 71,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 72,
+      "list_number": "6.",
+      "inferred_number": null,
+      "text": "Concrete Inserts: Steel or malleable-iron, slotted support system units similar to MSS Type 18; complying with MFMA-4 or MSS SP-58. ",
+      "combined": "6.\tConcrete Inserts: Steel or malleable-iron, slotted support system units similar to MSS Type 18; complying with MFMA-4 or MSS SP-58. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 73,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 74,
+      "list_number": "7.",
+      "inferred_number": null,
+      "text": "Clamps for Attachment to Steel Structural Elements: MSS SP-58, type suitable for attached structural element. ",
+      "combined": "7.\tClamps for Attachment to Steel Structural Elements: MSS SP-58, type suitable for attached structural element. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 75,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 76,
+      "list_number": "8.",
+      "inferred_number": null,
+      "text": "Through Bolts: Steel structural type, hex head, and high strength. Comply with ASTM A 325. ",
+      "combined": "8.\tThrough Bolts: Steel structural type, hex head, and high strength. Comply with ASTM A 325. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 77,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 78,
+      "list_number": "9.",
+      "inferred_number": null,
+      "text": "Toggle Bolts: All-steel galvanized springhead type, minimum 3/16” x 4”. ",
+      "combined": "9.\tToggle Bolts: All-steel galvanized springhead type, minimum 3/16” x 4”. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 79,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 80,
+      "list_number": "10.",
+      "inferred_number": null,
+      "text": "Hanger Rods: Threaded steel, Galvanized steel rods; 1/2\" minimum diameter. ",
+      "combined": "10.\tHanger Rods: Threaded steel, Galvanized steel rods; 1/2\" minimum diameter. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 81,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 82,
+      "list_number": "11.",
+      "inferred_number": null,
+      "text": "Clevis hangers: For supporting rigid metal conduit; galvanized steel; with 1/2\" minimum diameter hole for round steel rod.",
+      "combined": "11.\tClevis hangers: For supporting rigid metal conduit; galvanized steel; with 1/2\" minimum diameter hole for round steel rod.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 83,
+      "list_number": "",
+      "inferred_number": null,
+      "text": " ",
+      "combined": " ",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 84,
+      "list_number": "12.",
+      "inferred_number": null,
+      "text": "Galvanized steel rod reducing couplings: 1/2\" x 5/8” minimum. ",
+      "combined": "12.\tGalvanized steel rod reducing couplings: 1/2\" x 5/8” minimum. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 85,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 86,
+      "list_number": "13.",
+      "inferred_number": null,
+      "text": "Galvanized steel clamps: 1/2\" minimum rod size; Galvanized steel clamps: Minimum 1-1/4\" x 3/16\" stock; minimum 3/8\" cross bolt; minimum flange width 2\". ",
+      "combined": "13.\tGalvanized steel clamps: 1/2\" minimum rod size; Galvanized steel clamps: Minimum 1-1/4\" x 3/16\" stock; minimum 3/8\" cross bolt; minimum flange width 2\". ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 87,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 88,
+      "list_number": "14.",
+      "inferred_number": null,
+      "text": "Hexagon nuts: Galvanized steel. ",
+      "combined": "14.\tHexagon nuts: Galvanized steel. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 89,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 90,
+      "list_number": "",
+      "inferred_number": "15.",
+      "text": "15. \tExpansion anchors: Minimum 1/2\".",
+      "combined": "15. \tExpansion anchors: Minimum 1/2\".",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 91,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 92,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 93,
+      "list_number": "",
+      "inferred_number": "3.0",
+      "text": "3.0\tEXECUTION",
+      "combined": "3.0\tEXECUTION",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 94,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 95,
+      "list_number": "",
+      "inferred_number": "3.01",
+      "text": "3.01 \tINSTALLATION",
+      "combined": "3.01 \tINSTALLATION",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 96,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 97,
+      "list_number": "A.",
+      "inferred_number": null,
+      "text": "It shall be the responsibility of the electrical contractor to supervise the installation of and pay for all additional members, wood or metal and labor which may be required to support any type of permanent or temporary electrical apparatus employed in the execution of the electrical contractor's work. Provide supports, anchors, sleeves and seals furnished as part of factory-fabricated equipment as required. ",
+      "combined": "A.\tIt shall be the responsibility of the electrical contractor to supervise the installation of and pay for all additional members, wood or metal and labor which may be required to support any type of permanent or temporary electrical apparatus employed in the execution of the electrical contractor's work. Provide supports, anchors, sleeves and seals furnished as part of factory-fabricated equipment as required. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 98,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 99,
+      "list_number": "B.",
+      "inferred_number": null,
+      "text": "Coordinate layout and installation of equipment and components with other construction that penetrates walls or is supported by them, including electrical and other types of equipment, raceways, piping, encumbrances to workspace clearance requirements, and adjacent surfaces. Maintain required workspace clearances and required clearances for equipment access doors and panels. ",
+      "combined": "B.\tCoordinate layout and installation of equipment and components with other construction that penetrates walls or is supported by them, including electrical and other types of equipment, raceways, piping, encumbrances to workspace clearance requirements, and adjacent surfaces. Maintain required workspace clearances and required clearances for equipment access doors and panels. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 100,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 101,
+      "list_number": "C.",
+      "inferred_number": null,
+      "text": "Provide supports for multiple raceways capable of supporting combined weight of supported systems and its contents, plus minimum 100% factor of safety. Provide equipment supports capable of supporting combined operating weight of supported equipment and connected systems and components. Provide rated strengths adequate in tension, shear, and pullout force to resist maximum loads calculated or imposed for this project, with a minimum structural safety factor of five times the applied force. ",
+      "combined": "C.\tProvide supports for multiple raceways capable of supporting combined weight of supported systems and its contents, plus minimum 100% factor of safety. Provide equipment supports capable of supporting combined operating weight of supported equipment and connected systems and components. Provide rated strengths adequate in tension, shear, and pullout force to resist maximum loads calculated or imposed for this project, with a minimum structural safety factor of five times the applied force. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 102,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 103,
+      "list_number": "D.",
+      "inferred_number": null,
+      "text": "Locate all structural elements within concrete prior to pre-drilling anchors. Contractor is responsible for repairing all damage to structural elements resulting from the scope of this work. Anchor hole dimensions shall be per manufacturer recommendations. Drill and install anchors to depths as recommended by respective anchor manufacturer. Select and apply anchor products based on collective weight being supported, plus 100% factor of safety.",
+      "combined": "D.\tLocate all structural elements within concrete prior to pre-drilling anchors. Contractor is responsible for repairing all damage to structural elements resulting from the scope of this work. Anchor hole dimensions shall be per manufacturer recommendations. Drill and install anchors to depths as recommended by respective anchor manufacturer. Select and apply anchor products based on collective weight being supported, plus 100% factor of safety.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 104,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 105,
+      "list_number": "E.",
+      "inferred_number": null,
+      "text": "Comply with NECA 1 and NECA 101 for application and installation requirements of hangers and supports for electrical equipment and systems except if requirements in this Section are stricter. ",
+      "combined": "E.\tComply with NECA 1 and NECA 101 for application and installation requirements of hangers and supports for electrical equipment and systems except if requirements in this Section are stricter. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 106,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 107,
+      "list_number": "F.",
+      "inferred_number": null,
+      "text": "All electrically related work shall be supported directly from building structural members. Electrically related work shall not be supported from ductwork, ductwork hangers, ceiling supports, existing conduit supports, etc. Install supports with spacing’s indicated and in compliance with NEC requirements, as well as maintaining all requirements of Article 110.26. Cut, fit, and place miscellaneous metal fabrications accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. ",
+      "combined": "F.\tAll electrically related work shall be supported directly from building structural members. Electrically related work shall not be supported from ductwork, ductwork hangers, ceiling supports, existing conduit supports, etc. Install supports with spacing’s indicated and in compliance with NEC requirements, as well as maintaining all requirements of Article 110.26. Cut, fit, and place miscellaneous metal fabrications accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 108,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 109,
+      "list_number": "G.",
+      "inferred_number": null,
+      "text": "Cut, fit, and place miscellaneous metal supports accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. Field Welding: Comply with AWS D1.1/D1.1M. ",
+      "combined": "G.\tCut, fit, and place miscellaneous metal supports accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. Field Welding: Comply with AWS D1.1/D1.1M. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 110,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 111,
+      "list_number": "H.",
+      "inferred_number": null,
+      "text": "Touchup Painting: Clean field welds and abraded areas of shop paint. Paint exposed areas immediately after erecting hangers and supports. Use same materials as used for shop painting. Comply with SSPC-PA 1 requirements for touching up field-painted surfaces. Apply paint by brush or spray to provide minimum dry film thickness of 2.0 mils. For galvanized surfaces, clean welds, bolted connections, and abraded areas and apply galvanizing-repair paint to comply with ASTM A 780. ",
+      "combined": "H.\tTouchup Painting: Clean field welds and abraded areas of shop paint. Paint exposed areas immediately after erecting hangers and supports. Use same materials as used for shop painting. Comply with SSPC-PA 1 requirements for touching up field-painted surfaces. Apply paint by brush or spray to provide minimum dry film thickness of 2.0 mils. For galvanized surfaces, clean welds, bolted connections, and abraded areas and apply galvanizing-repair paint to comply with ASTM A 780. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 112,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 113,
+      "list_number": "I.",
+      "inferred_number": null,
+      "text": "Install equipment and enclosures on walls with tops at uniform height unless otherwise indicated, and by bolting units to structural wall or mounting on structural-steel channels bolted to wall. For equipment and enclosures not at walls provide freestanding structural-steel channel racks that are anchored to floor structure and overhead structure. ",
+      "combined": "I.\tInstall equipment and enclosures on walls with tops at uniform height unless otherwise indicated, and by bolting units to structural wall or mounting on structural-steel channels bolted to wall. For equipment and enclosures not at walls provide freestanding structural-steel channel racks that are anchored to floor structure and overhead structure. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 114,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 115,
+      "list_number": "J.",
+      "inferred_number": null,
+      "text": "Use of synthetic or plastic “tie-wraps”, “zip ties”, “wire ties” and similar products are not permitted as a permanent means of anchoring, securing, supporting or otherwise installing any cables, conductors, conduits, raceways, devices, equipment or other electrical work. Provide metal clamps, clips, etc. that are manufactured for use for respective applications where they are used. Use of perforated straps is not permitted. ",
+      "combined": "J.\tUse of synthetic or plastic “tie-wraps”, “zip ties”, “wire ties” and similar products are not permitted as a permanent means of anchoring, securing, supporting or otherwise installing any cables, conductors, conduits, raceways, devices, equipment or other electrical work. Provide metal clamps, clips, etc. that are manufactured for use for respective applications where they are used. Use of perforated straps is not permitted. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 116,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 117,
+      "list_number": "K.",
+      "inferred_number": null,
+      "text": "Route all conduits, raceways and cables (where applicable) parallel and perpendicular to building structural members. Any and all noncompliant work installed by the electrical contractor shall be removed and reinstalled by the electrical contractor to the satisfaction of the Owner's Representative and the Design Professionals, at the expense of the electrical contractor. ",
+      "combined": "K.\tRoute all conduits, raceways and cables (where applicable) parallel and perpendicular to building structural members. Any and all noncompliant work installed by the electrical contractor shall be removed and reinstalled by the electrical contractor to the satisfaction of the Owner's Representative and the Design Professionals, at the expense of the electrical contractor. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 118,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 119,
+      "list_number": "L.",
+      "inferred_number": null,
+      "text": "All fasteners, hangers and methods of hanging exposed work in finished areas shall be submitted to the Owner's Representative for review before installation. Fasteners shall be zinc-coated, type, grade, and class as required for a neat finished installation.",
+      "combined": "L.\tAll fasteners, hangers and methods of hanging exposed work in finished areas shall be submitted to the Owner's Representative for review before installation. Fasteners shall be zinc-coated, type, grade, and class as required for a neat finished installation.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 120,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 121,
+      "list_number": "M.",
+      "inferred_number": null,
+      "text": "Space supports for conduits and raceways required by NFPA 70 as a minimum. Minimum rod size shall be 1/4 inch in diameter. For multiple raceways or cables, install trapeze-type supports fabricated with steel slotted, sized so capacity can be increased by at least 100 percent in future without exceeding specified design load limits. Secure raceways and cables to these supports with two-bolt conduit clamps, single-bolt conduit clamps, or single-bolt conduit clamps using spring friction action for retention in support channel as applicable. ",
+      "combined": "M.\tSpace supports for conduits and raceways required by NFPA 70 as a minimum. Minimum rod size shall be 1/4 inch in diameter. For multiple raceways or cables, install trapeze-type supports fabricated with steel slotted, sized so capacity can be increased by at least 100 percent in future without exceeding specified design load limits. Secure raceways and cables to these supports with two-bolt conduit clamps, single-bolt conduit clamps, or single-bolt conduit clamps using spring friction action for retention in support channel as applicable. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 122,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 123,
+      "list_number": "N.",
+      "inferred_number": null,
+      "text": "Coordinate with installation of roof curbs, equipment supports, and roof penetrations as applicable. Suspend and support overhead electrical work from roof trusses and joists/joist girders only at panel points, at top chord only, unless otherwise indicated. Roof penetrations to have pipe boots or other approved method to maintain warrantee of roof. ",
+      "combined": "N.\tCoordinate with installation of roof curbs, equipment supports, and roof penetrations as applicable. Suspend and support overhead electrical work from roof trusses and joists/joist girders only at panel points, at top chord only, unless otherwise indicated. Roof penetrations to have pipe boots or other approved method to maintain warrantee of roof. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 124,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 125,
+      "list_number": "O.",
+      "inferred_number": null,
+      "text": "Do not drill any concrete structural members or decks without prior case-by-case written approval of means and methods from Owner and Design Professionals. ",
+      "combined": "O.\tDo not drill any concrete structural members or decks without prior case-by-case written approval of means and methods from Owner and Design Professionals. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 126,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 127,
+      "list_number": "P.",
+      "inferred_number": null,
+      "text": "Do not suspend overhead hangers, or support any other overhead electrical work, from non-poured-concrete roof decks, without coordination with roofing vendor/installer. ",
+      "combined": "P.\tDo not suspend overhead hangers, or support any other overhead electrical work, from non-poured-concrete roof decks, without coordination with roofing vendor/installer. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 128,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 129,
+      "list_number": "Q.",
+      "inferred_number": null,
+      "text": "Field-verify lengths of stems, pendants, cables, suspensions, etc. for all suspended luminaires with Architect. ",
+      "combined": "Q.\tField-verify lengths of stems, pendants, cables, suspensions, etc. for all suspended luminaires with Architect. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 130,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 131,
+      "list_number": "R.",
+      "inferred_number": null,
+      "text": "Strength of Support Assemblies: Where not indicated, select sizes of components so strength will be adequate to carry present and future static loads within specified loading limits. Minimum static design load used for strength determination shall be weight of supported components plus 200 lb. or 100 percent factor of safety, whichever is greater.",
+      "combined": "R.\tStrength of Support Assemblies: Where not indicated, select sizes of components so strength will be adequate to carry present and future static loads within specified loading limits. Minimum static design load used for strength determination shall be weight of supported components plus 200 lb. or 100 percent factor of safety, whichever is greater.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 132,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 133,
+      "list_number": "S.",
+      "inferred_number": null,
+      "text": "Mounting and Anchorage of Surface-Mounted Equipment and Components: Anchor and fasten electrical items and their supports to building structural elements by the following methods unless otherwise indicated by code. Use supported equipment manufacturer's setting drawings, templates, diagrams, instructions, and directions furnished with items to be embedded. Install anchor bolts to elevations required for proper attachment to supported equipment. Install anchor bolts according to anchor-bolt manufacturer's written instructions. Provide female expansion anchors, and install studs and nuts after equipment is positioned. Torque bolts and nuts on studs to values recommended by equipment manufacturer. Provide bushings for floor-mounted equipment anchors to allow for resilient media between anchor bolts/studs and mounting hole in concrete. Provide anchor bolt bushing assemblies for wall-mounted equipment to allow for resilient media where equipment and equipment-mounting channels are attached to wall. ",
+      "combined": "S.\tMounting and Anchorage of Surface-Mounted Equipment and Components: Anchor and fasten electrical items and their supports to building structural elements by the following methods unless otherwise indicated by code. Use supported equipment manufacturer's setting drawings, templates, diagrams, instructions, and directions furnished with items to be embedded. Install anchor bolts to elevations required for proper attachment to supported equipment. Install anchor bolts according to anchor-bolt manufacturer's written instructions. Provide female expansion anchors, and install studs and nuts after equipment is positioned. Torque bolts and nuts on studs to values recommended by equipment manufacturer. Provide bushings for floor-mounted equipment anchors to allow for resilient media between anchor bolts/studs and mounting hole in concrete. Provide anchor bolt bushing assemblies for wall-mounted equipment to allow for resilient media where equipment and equipment-mounting channels are attached to wall. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 134,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 135,
+      "list_number": "1.",
+      "inferred_number": null,
+      "text": "To Wood: Fasten with lag screws or through-bolts. Provide Standard Grade, light-framing-size lumber of any species. Number 3 Common or Standard Grade boards complying with WCLIB or AWPA rules, or Number 3 boards complying with SPIB rules. Lumber shall be preservative treated in accordance with AWPB LP-2, and kiln dried to a moisture content of not more than 19 percent. Provide marine grade products where subject to moisture conditions. Provide Simpson Strong Tie (or equal) expansion screw anchors. Cut, fit, and place wood grounds, nailers, blocking, and anchorage accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. Select fastener sizes that will not penetrate members where opposite side will be exposed to view or will receive finish materials. Make tight connections between members. Install fasteners without splitting wood members. Attach to substrates as required to support applied loads. ",
+      "combined": "1.\tTo Wood: Fasten with lag screws or through-bolts. Provide Standard Grade, light-framing-size lumber of any species. Number 3 Common or Standard Grade boards complying with WCLIB or AWPA rules, or Number 3 boards complying with SPIB rules. Lumber shall be preservative treated in accordance with AWPB LP-2, and kiln dried to a moisture content of not more than 19 percent. Provide marine grade products where subject to moisture conditions. Provide Simpson Strong Tie (or equal) expansion screw anchors. Cut, fit, and place wood grounds, nailers, blocking, and anchorage accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. Select fastener sizes that will not penetrate members where opposite side will be exposed to view or will receive finish materials. Make tight connections between members. Install fasteners without splitting wood members. Attach to substrates as required to support applied loads. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 136,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 137,
+      "list_number": "2.",
+      "inferred_number": null,
+      "text": "To Wood Structural Members: Provide bolts installed through members. ",
+      "combined": "2.\tTo Wood Structural Members: Provide bolts installed through members. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 138,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 139,
+      "list_number": "3.",
+      "inferred_number": null,
+      "text": "To New Concrete: Provide channel-type concrete inserts and bolt to inserts, or provide expansion anchors for applications where inserts are not practical.",
+      "combined": "3.\tTo New Concrete: Provide channel-type concrete inserts and bolt to inserts, or provide expansion anchors for applications where inserts are not practical.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 140,
+      "list_number": "",
+      "inferred_number": null,
+      "text": " ",
+      "combined": " ",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 141,
+      "list_number": "4.",
+      "inferred_number": null,
+      "text": "To Existing Concrete: Expansion anchor fasteners. ",
+      "combined": "4.\tTo Existing Concrete: Expansion anchor fasteners. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 142,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 143,
+      "list_number": "5.",
+      "inferred_number": null,
+      "text": "Holes for Expansion Anchors in Concrete: Drill at locations and to depths that avoid reinforcing bars and other structural elements. Review proposed means, methods, locations, etc. in advance with Owner and Design Professionals. ",
+      "combined": "5.\tHoles for Expansion Anchors in Concrete: Drill at locations and to depths that avoid reinforcing bars and other structural elements. Review proposed means, methods, locations, etc. in advance with Owner and Design Professionals. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 144,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 145,
+      "list_number": "6.",
+      "inferred_number": null,
+      "text": "To Masonry: Approved toggle-type bolts on hollow masonry units and expansion anchor fasteners on solid masonry units. ",
+      "combined": "6.\tTo Masonry: Approved toggle-type bolts on hollow masonry units and expansion anchor fasteners on solid masonry units. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 146,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 147,
+      "list_number": "7.",
+      "inferred_number": null,
+      "text": "To Steel: Welded threaded steel studs complying with AWS D1.1/D1.1M, with lock washers and nuts, or beam clamps (MSS Type 19, 21, 23, 25, or 27) complying with MSS SP-69, clamped to flanges of beams or on upper truss chords of bar joists. ",
+      "combined": "7.\tTo Steel: Welded threaded steel studs complying with AWS D1.1/D1.1M, with lock washers and nuts, or beam clamps (MSS Type 19, 21, 23, 25, or 27) complying with MSS SP-69, clamped to flanges of beams or on upper truss chords of bar joists. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 148,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 149,
+      "list_number": "8.",
+      "inferred_number": null,
+      "text": "To Light Steel: Sheet metal screws. ",
+      "combined": "8.\tTo Light Steel: Sheet metal screws. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 150,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 151,
+      "list_number": "9.",
+      "inferred_number": null,
+      "text": "Items Mounted on Hollow Walls and Nonstructural Building Surfaces in finished areas: Provide blocking between studs behind finished wall surface. Mount equipment, devices and boxes with backs of enclosures flush to front of finished wall surface. ",
+      "combined": "9.\tItems Mounted on Hollow Walls and Nonstructural Building Surfaces in finished areas: Provide blocking between studs behind finished wall surface. Mount equipment, devices and boxes with backs of enclosures flush to front of finished wall surface. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 152,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 153,
+      "list_number": "10.",
+      "inferred_number": null,
+      "text": "Items Mounted on Hollow Walls and Nonstructural Building Surfaces in unfinished areas: Mount equipment on slotted-channel racks attached to substrate. ",
+      "combined": "10.\tItems Mounted on Hollow Walls and Nonstructural Building Surfaces in unfinished areas: Mount equipment on slotted-channel racks attached to substrate. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 154,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 155,
+      "list_number": "",
+      "inferred_number": "11.",
+      "text": "11. \tDo not use powder/gas-actuated driven methods. ",
+      "combined": "11. \tDo not use powder/gas-actuated driven methods. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 156,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 157,
+      "list_number": "T.",
+      "inferred_number": null,
+      "text": "Coordinate all work with all other trades prior to commencement of the work. Layout and install all electrical work in strict compliance with Chapter 1, Part B, Section 110.26 of the latest adopted edition of NFPA 70. Locations and routing that may be shown on plans are schematic and diagrammatic in nature. ",
+      "combined": "T.\tCoordinate all work with all other trades prior to commencement of the work. Layout and install all electrical work in strict compliance with Chapter 1, Part B, Section 110.26 of the latest adopted edition of NFPA 70. Locations and routing that may be shown on plans are schematic and diagrammatic in nature. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 158,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 159,
+      "list_number": "U.",
+      "inferred_number": null,
+      "text": "Fabricated Support Devices: ",
+      "combined": "U.\tFabricated Support Devices: ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 160,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 161,
+      "list_number": "1.",
+      "inferred_number": null,
+      "text": "Conform to the manufacturer’s recommendations for selection and installation of supports. ",
+      "combined": "1.\tConform to the manufacturer’s recommendations for selection and installation of supports. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 162,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 163,
+      "list_number": "2.",
+      "inferred_number": null,
+      "text": "Install individual and multiple (trapeze) raceway hangers and riser clamps as necessary to support raceways. Provide U-bolts, clamps, attachments, and other hardware necessary for hanger assembly and for securing hanger rods and conduits. ",
+      "combined": "2.\tInstall individual and multiple (trapeze) raceway hangers and riser clamps as necessary to support raceways. Provide U-bolts, clamps, attachments, and other hardware necessary for hanger assembly and for securing hanger rods and conduits. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 164,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 165,
+      "list_number": "3.",
+      "inferred_number": null,
+      "text": "Support parallel runs of horizontal raceways together on trapeze-type hangers. ",
+      "combined": "3.\tSupport parallel runs of horizontal raceways together on trapeze-type hangers. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 166,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 167,
+      "list_number": "4.",
+      "inferred_number": null,
+      "text": "Support individual horizontal raceways by separate pipe hangers. Spring steel fasteners shall be used in lieu of hangers for 1-1/2 inches and smaller raceways above suspended ceilings only.",
+      "combined": "4.\tSupport individual horizontal raceways by separate pipe hangers. Spring steel fasteners shall be used in lieu of hangers for 1-1/2 inches and smaller raceways above suspended ceilings only.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 168,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 169,
+      "list_number": "5.",
+      "inferred_number": null,
+      "text": "For hanger rods with spring steel fasteners, use 1/4 inch diameter or larger threaded steel. Use spring steel fasteners that are specifically designed for supporting single conduits. ",
+      "combined": "5.\tFor hanger rods with spring steel fasteners, use 1/4 inch diameter or larger threaded steel. Use spring steel fasteners that are specifically designed for supporting single conduits. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 170,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 171,
+      "list_number": "6.",
+      "inferred_number": null,
+      "text": "Support exposed and concealed raceway within 1 foot of box and access fittings. In horizontal runs, support at the box and access fittings shall be omitted where box or access fittings are independently supported and raceway terminals are not made with chase nipples or threadless box connectors. ",
+      "combined": "6.\tSupport exposed and concealed raceway within 1 foot of box and access fittings. In horizontal runs, support at the box and access fittings shall be omitted where box or access fittings are independently supported and raceway terminals are not made with chase nipples or threadless box connectors. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 172,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 173,
+      "list_number": "7.",
+      "inferred_number": null,
+      "text": "In vertical runs, arrange supports so the load produced by the weight of the raceway and the enclosed conductors is carried entirely by the conduit supports with no weight load on the ends of the raceway. ",
+      "combined": "7.\tIn vertical runs, arrange supports so the load produced by the weight of the raceway and the enclosed conductors is carried entirely by the conduit supports with no weight load on the ends of the raceway. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 174,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 175,
+      "list_number": "",
+      "inferred_number": "8.",
+      "text": "8. \tMiscellaneous supports: ",
+      "combined": "8. \tMiscellaneous supports: ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 176,
+      "list_number": "",
+      "inferred_number": "a.",
+      "text": "a. \tSupport miscellaneous electrical components as required to produce the same structural safety factors as specified for raceway supports. Install metal channel racks for mounting cabinets, pull boxes, junction boxes, and other devices. ",
+      "combined": "a. \tSupport miscellaneous electrical components as required to produce the same structural safety factors as specified for raceway supports. Install metal channel racks for mounting cabinets, pull boxes, junction boxes, and other devices. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 177,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 178,
+      "list_number": "",
+      "inferred_number": "b.",
+      "text": "b. \tSupport outlet boxes directly from the building structure or by bar hangers. Where bar hangers are used, attach the bar to raceways on opposite sides of the box and support the raceway with an approved type of fastener not more than 24 inches from the box. ",
+      "combined": "b. \tSupport outlet boxes directly from the building structure or by bar hangers. Where bar hangers are used, attach the bar to raceways on opposite sides of the box and support the raceway with an approved type of fastener not more than 24 inches from the box. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 179,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 180,
+      "list_number": "",
+      "inferred_number": "c.",
+      "text": "c. \tSupport junction boxes, pull boxes and other boxes directly from the building structure. ",
+      "combined": "c. \tSupport junction boxes, pull boxes and other boxes directly from the building structure. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 181,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 182,
+      "list_number": "8.",
+      "inferred_number": null,
+      "text": "Fastening: ",
+      "combined": "8.\tFastening: ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 183,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 184,
+      "list_number": "a.",
+      "inferred_number": null,
+      "text": "Fasten pathway products and associated supporting hardware securely to the building structure. ",
+      "combined": "a.\tFasten pathway products and associated supporting hardware securely to the building structure. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 185,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 186,
+      "list_number": "b.",
+      "inferred_number": null,
+      "text": "Fasten by means of wood screws on wood, toggle bolts on hollow masonry units. ",
+      "combined": "b.\tFasten by means of wood screws on wood, toggle bolts on hollow masonry units. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 187,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 188,
+      "list_number": "c.",
+      "inferred_number": null,
+      "text": "Fasten by means of concrete inserts or expansion bolts on concrete or solid masonry. ",
+      "combined": "c.\tFasten by means of concrete inserts or expansion bolts on concrete or solid masonry. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 189,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 190,
+      "list_number": "d.",
+      "inferred_number": null,
+      "text": "Fasten by means of bolts with lock washers and nuts, machine screws, welded threaded studs, or clamps on steel (spring-tension where applicable). ",
+      "combined": "d.\tFasten by means of bolts with lock washers and nuts, machine screws, welded threaded studs, or clamps on steel (spring-tension where applicable). ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 191,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 192,
+      "list_number": "e.",
+      "inferred_number": null,
+      "text": "Do not weld conduit, pipe straps, or items other than threaded studs to steel structures. ",
+      "combined": "e.\tDo not weld conduit, pipe straps, or items other than threaded studs to steel structures. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 193,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 194,
+      "list_number": "f.",
+      "inferred_number": null,
+      "text": "In partitions of light steel construction, use sheet metal screws. ",
+      "combined": "f.\tIn partitions of light steel construction, use sheet metal screws. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 195,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 196,
+      "list_number": "g.",
+      "inferred_number": null,
+      "text": "When installing fasteners in concrete or CMU structures, do not cut, drill or damage reinforcing bars or other structural elements. ",
+      "combined": "g.\tWhen installing fasteners in concrete or CMU structures, do not cut, drill or damage reinforcing bars or other structural elements. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 197,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 198,
+      "list_number": "h.",
+      "inferred_number": null,
+      "text": "Ensure that the load applied to any fasteners does not exceed 25-percent of the proof test load. Use vibration-and shock-resistant fasteners for attachments to concrete slabs. ",
+      "combined": "h.\tEnsure that the load applied to any fasteners does not exceed 25-percent of the proof test load. Use vibration-and shock-resistant fasteners for attachments to concrete slabs. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 199,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 200,
+      "list_number": "i.",
+      "inferred_number": null,
+      "text": "Raceway supports: Hanger spacing shall be as required for adequate support of the raceway, but in no case shall there be less than one hanger per 8 feet of raceway length.",
+      "combined": "i.\tRaceway supports: Hanger spacing shall be as required for adequate support of the raceway, but in no case shall there be less than one hanger per 8 feet of raceway length.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 201,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 202,
+      "list_number": "",
+      "inferred_number": "10.",
+      "text": "10. \tLocate all structural elements within existing concrete prior to pre-drilling or setting anchors. Contractor is responsible for repairing all damage to structural elements resulting from the scope of this work. ",
+      "combined": "10. \tLocate all structural elements within existing concrete prior to pre-drilling or setting anchors. Contractor is responsible for repairing all damage to structural elements resulting from the scope of this work. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 203,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 204,
+      "list_number": "",
+      "inferred_number": "3.02",
+      "text": "3.02 \tCONCRETE BASES ",
+      "combined": "3.02 \tCONCRETE BASES ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 205,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 206,
+      "list_number": "A.",
+      "inferred_number": null,
+      "text": "Provide dowel rods to connect concrete bases to concrete floors/slabs/substrates. Unless otherwise indicated, install dowel rods on maximum 18-inch centers around the full perimeter of concrete base. ",
+      "combined": "A.\tProvide dowel rods to connect concrete bases to concrete floors/slabs/substrates. Unless otherwise indicated, install dowel rods on maximum 18-inch centers around the full perimeter of concrete base. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 207,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 208,
+      "list_number": "B.",
+      "inferred_number": null,
+      "text": "Provide epoxy-coated anchor bolts that extend through concrete base and anchor into structural concrete floor/slab/substrate, unless concrete bases are installed directly on grade. Place and secure anchorage devices. Use setting drawings, templates, diagrams, instructions, and directions furnished with items to be embedded. Install anchor bolts to elevations required for proper attachment to supported equipment. ",
+      "combined": "B.\tProvide epoxy-coated anchor bolts that extend through concrete base and anchor into structural concrete floor/slab/substrate, unless concrete bases are installed directly on grade. Place and secure anchorage devices. Use setting drawings, templates, diagrams, instructions, and directions furnished with items to be embedded. Install anchor bolts to elevations required for proper attachment to supported equipment. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 209,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 210,
+      "list_number": "C.",
+      "inferred_number": null,
+      "text": "Construct concrete bases of dimensions indicated but not less than 4 inches larger in both directions than supported unit, and so anchors will be a minimum of 10 bolt diameters from edge of the base. Coordinate sizes and locations of concrete bases with actual equipment provided. Cast galvanized or stainless-steel anchor-bolt inserts into bases. ",
+      "combined": "C.\tConstruct concrete bases of dimensions indicated but not less than 4 inches larger in both directions than supported unit, and so anchors will be a minimum of 10 bolt diameters from edge of the base. Coordinate sizes and locations of concrete bases with actual equipment provided. Cast galvanized or stainless-steel anchor-bolt inserts into bases. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 211,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 212,
+      "list_number": "D.",
+      "inferred_number": null,
+      "text": "Indoor bases shall be at least 4\" thick and shall have straight and finished sides and a 1\"-45 degree chamfer at the top perimeter. Reinforcing steel bars shall be placed in both directions of the bases. Where required for supplemental support, provide lateral support work to adjacent wall(s). Provide concrete bases/housekeeping pads beneath all electrical power and systems distribution equipment that is floor mounted or wall mounted within 4\" of the floor. ",
+      "combined": "D.\tIndoor bases shall be at least 4\" thick and shall have straight and finished sides and a 1\"-45 degree chamfer at the top perimeter. Reinforcing steel bars shall be placed in both directions of the bases. Where required for supplemental support, provide lateral support work to adjacent wall(s). Provide concrete bases/housekeeping pads beneath all electrical power and systems distribution equipment that is floor mounted or wall mounted within 4\" of the floor. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 213,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 214,
+      "list_number": "E.",
+      "inferred_number": null,
+      "text": "Outdoor bases shall be at least 6\" thick and shall have straight and finished sides and a 1\"-45 degree chamfer at the top perimeter. Perimeter of pads shall extend down below the frostline. Reinforcing steel bars shall be placed in both directions of the bases and a mesh overlay shall be provided. Where required for supplemental support, provide lateral support work to adjacent wall(s). Provide concrete bases/housekeeping pads beneath all electrical power and systems distribution equipment that is slab or grade mounted or mounted within 6\" of slab or grade. ",
+      "combined": "E.\tOutdoor bases shall be at least 6\" thick and shall have straight and finished sides and a 1\"-45 degree chamfer at the top perimeter. Perimeter of pads shall extend down below the frostline. Reinforcing steel bars shall be placed in both directions of the bases and a mesh overlay shall be provided. Where required for supplemental support, provide lateral support work to adjacent wall(s). Provide concrete bases/housekeeping pads beneath all electrical power and systems distribution equipment that is slab or grade mounted or mounted within 6\" of slab or grade. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 215,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 216,
+      "list_number": "F.",
+      "inferred_number": null,
+      "text": "Unless indicated otherwise in specifications or on drawings, use minimum 3000-psi, 28-day compressive-strength concrete. Size and provide concrete bases so expansion anchors will be a minimum of 10 bolt diameters from the edge of the concrete base. ",
+      "combined": "F.\tUnless indicated otherwise in specifications or on drawings, use minimum 3000-psi, 28-day compressive-strength concrete. Size and provide concrete bases so expansion anchors will be a minimum of 10 bolt diameters from the edge of the concrete base. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 217,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 218,
+      "list_number": "G.",
+      "inferred_number": null,
+      "text": "Forms: As required for equipment pads or other special applications in field, provide forms made of steel, wood, or other suitable material of size and strength to resist movement during concrete placement, and to retain horizontal and vertical alignment until removal. Use straight forms, free of distortion and defects. Use flexible spring steel forms or laminated boards to form radius bends. Do not remove forms for 24 hours after concrete has been placed. Set forms to required grades and lines, rigidly braced and secured. Provide sufficient quantity of forms to allow continuous progress of work, and so that forms can remain in place at least 24 hours after concrete placement. Clean forms after each use, and coat with form release agent as often as required to ensure separation from concrete without damage. Form areas that involve termination of spare conduits below grade, or that involve continuation of conduits by others, accordingly to accommodate easy future access to the ends of conduits for future extensions. ",
+      "combined": "G.\tForms: As required for equipment pads or other special applications in field, provide forms made of steel, wood, or other suitable material of size and strength to resist movement during concrete placement, and to retain horizontal and vertical alignment until removal. Use straight forms, free of distortion and defects. Use flexible spring steel forms or laminated boards to form radius bends. Do not remove forms for 24 hours after concrete has been placed. Set forms to required grades and lines, rigidly braced and secured. Provide sufficient quantity of forms to allow continuous progress of work, and so that forms can remain in place at least 24 hours after concrete placement. Clean forms after each use, and coat with form release agent as often as required to ensure separation from concrete without damage. Form areas that involve termination of spare conduits below grade, or that involve continuation of conduits by others, accordingly to accommodate easy future access to the ends of conduits for future extensions. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 219,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 220,
+      "list_number": "H.",
+      "inferred_number": null,
+      "text": "Reinforcement: Cut bars true to length with ends square and free of burrs. Provide metal expansion caps for one end of each dowel bar in expansion joints. Design caps with one end closed and a minimum length of 3\" to allow bars movement of not less than 1\", unless otherwise indicated. Provide these for joining applications where continuous pouring cannot be accomplished. ",
+      "combined": "H.\tReinforcement: Cut bars true to length with ends square and free of burrs. Provide metal expansion caps for one end of each dowel bar in expansion joints. Design caps with one end closed and a minimum length of 3\" to allow bars movement of not less than 1\", unless otherwise indicated. Provide these for joining applications where continuous pouring cannot be accomplished. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 221,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 222,
+      "list_number": "I.",
+      "inferred_number": null,
+      "text": "Concrete Placement: Remove loose material from subbase surface immediately before placing concrete. Check subbase and forms for line and grade before placing concrete. Moisten subbase if required to provide a uniform dampened condition at time concrete is placed. Place concrete using methods that prevent segregation of mix. Use splash boards to divert the flow of concrete away from the trench sides, and to avoid dislodging soil and stones. Coordinate with Owner's Representative at least 72 hours prior to placing concrete. Line up concrete trucks as required to achieve one continuous pour where applicable. Do not backfill until a minimum of 48 hours have passed. ",
+      "combined": "I.\tConcrete Placement: Remove loose material from subbase surface immediately before placing concrete. Check subbase and forms for line and grade before placing concrete. Moisten subbase if required to provide a uniform dampened condition at time concrete is placed. Place concrete using methods that prevent segregation of mix. Use splash boards to divert the flow of concrete away from the trench sides, and to avoid dislodging soil and stones. Coordinate with Owner's Representative at least 72 hours prior to placing concrete. Line up concrete trucks as required to achieve one continuous pour where applicable. Do not backfill until a minimum of 48 hours have passed. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 223,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 224,
+      "list_number": "",
+      "inferred_number": "J.",
+      "text": "J. \tConcrete Finishing: Smooth surface by screeding after striking-off and consolidating concrete. Provide Class A finishing. Broom finish concrete pads, and aprons around pullboxes and structures. Protect concrete from damage until acceptance of work. Exclude traffic over affected areas for at least 14 days after placement. ",
+      "combined": "J. \tConcrete Finishing: Smooth surface by screeding after striking-off and consolidating concrete. Provide Class A finishing. Broom finish concrete pads, and aprons around pullboxes and structures. Protect concrete from damage until acceptance of work. Exclude traffic over affected areas for at least 14 days after placement. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 225,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 226,
+      "list_number": "",
+      "inferred_number": "K.",
+      "text": "K.\tFor pad mounted generator follow manufacturers installation instructions. Unless directed otherwise by manufacturer, pad to be a minimum of 6\" above finished grade with overall depth as required for pad weight to be greater than or equal to the combined weight of generator, enclosure, and a full fuel tank. maintain a minimum of 36\" around the perimeter of the enclosure.  Provide minimum 3000psi concrete with broom finish and #6 rebar spaced 12\" on-center along length and width at top and bottom with 3\" from surface on all sides; refer to structural plans for additional details.",
+      "combined": "K.\tFor pad mounted generator follow manufacturers installation instructions. Unless directed otherwise by manufacturer, pad to be a minimum of 6\" above finished grade with overall depth as required for pad weight to be greater than or equal to the combined weight of generator, enclosure, and a full fuel tank. maintain a minimum of 36\" around the perimeter of the enclosure.  Provide minimum 3000psi concrete with broom finish and #6 rebar spaced 12\" on-center along length and width at top and bottom with 3\" from surface on all sides; refer to structural plans for additional details.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 227,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 228,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 229,
+      "list_number": "",
+      "inferred_number": "3.03",
+      "text": "3.03 \tPLYWOOD EQUIPMENT BOARDS ",
+      "combined": "3.03 \tPLYWOOD EQUIPMENT BOARDS ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 230,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 231,
+      "list_number": "A.",
+      "inferred_number": null,
+      "text": "Plywood Equipment Boards: Lumber shall be preservative treated in accordance with AWPB LP-2, and kiln dried to a moisture content of not more than 19 percent. Provide plywood panels; APA C-D PLUGGED INT, with exterior glue; thickness as indicated, or if not indicated, not less than 3/4 inches deep. Provide marine grade plywood where subject to moisture conditions. Provide Simpson Strong Tie (or equal) expansion screw anchors. ",
+      "combined": "A.\tPlywood Equipment Boards: Lumber shall be preservative treated in accordance with AWPB LP-2, and kiln dried to a moisture content of not more than 19 percent. Provide plywood panels; APA C-D PLUGGED INT, with exterior glue; thickness as indicated, or if not indicated, not less than 3/4 inches deep. Provide marine grade plywood where subject to moisture conditions. Provide Simpson Strong Tie (or equal) expansion screw anchors. ",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 232,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 233,
+      "list_number": "B.",
+      "inferred_number": null,
+      "text": "Unless otherwise noted, boards shall be fire rated or painted with two coats of good grade weatherproof flat gray non-conductive fire-retardant paint on all sides and edges (prior to mounting) and plumbed in a true vertical position. If fire rated board is used, leave all applicable rating label visible after painting. Provide nominal 1/2\" rustproof spacers between back of plywood and wall. Cut, fit, and place plywood equipment boards accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. Select fastener sizes that will not penetrate members where opposite side will be exposed to view or will receive finish materials. Make tight connections between members. Install fasteners without splitting wood members. Attach to substrates as required to support applied loads. Maintain at least 4 inches from bottom of plywood equipment boards and the finished floor surface.",
+      "combined": "B.\tUnless otherwise noted, boards shall be fire rated or painted with two coats of good grade weatherproof flat gray non-conductive fire-retardant paint on all sides and edges (prior to mounting) and plumbed in a true vertical position. If fire rated board is used, leave all applicable rating label visible after painting. Provide nominal 1/2\" rustproof spacers between back of plywood and wall. Cut, fit, and place plywood equipment boards accurately in location, alignment, and elevation to support and anchor electrical materials and equipment. Select fastener sizes that will not penetrate members where opposite side will be exposed to view or will receive finish materials. Make tight connections between members. Install fasteners without splitting wood members. Attach to substrates as required to support applied loads. Maintain at least 4 inches from bottom of plywood equipment boards and the finished floor surface.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 234,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 235,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "C. \tUnless directed otherwise in field, plywood equipment boards shall be 8 feet high by 3/4 inches deep by length shown on drawings (as dimensioned or as scaled) or length as required to accommodate equipment if not indicated on drawings. ",
+      "combined": "C. \tUnless directed otherwise in field, plywood equipment boards shall be 8 feet high by 3/4 inches deep by length shown on drawings (as dimensioned or as scaled) or length as required to accommodate equipment if not indicated on drawings. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 236,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 237,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 238,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 239,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 240,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "",
+      "combined": "",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 241,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "\t\tEND OF SECTION",
+      "combined": "\t\tEND OF SECTION",
+      "level": null,
+      "deduction_method": null
+    }
+  ]
+}

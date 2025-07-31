@@ -1,0 +1,42 @@
+SECTION 00 00 00
+SECTION TITLE
+1.0	BWA-PART
+1.01	BWA-SUBSECTION1
+A.	BWA-Item1
+B.	BWA-Item2
+1.	BWA-List1
+2.	BWA-List2
+a.	BWA-SubItem1
+b.	BWA-SubItem2
+i.	BWA-SubList1
+ii.	BWA-SubList2
+1.02	BWA-SUBSECTION2
+A.	BWA-Item1
+B.	BWA-Item2
+1.	BWA-List1
+2.	BWA-List2
+a.	BWA-SubItem1
+b.	BWA-SubItem2
+i.	BWA-SubList1
+ii.	BWA-SubList2
+2.0	BWA-PART2
+2.01	BWA-SUBSECTION1
+A.	BWA-Item1
+B.	BWA-Item2
+1.	BWA-List1
+2.	BWA-List2
+a.	BWA-SubItem1
+b.	BWA-SubItem2
+i.	BWA-SubList1
+ii.	BWA-SubList2
+2.02	BWA-SUBSECTION2
+A.	BWA-Item1
+B.	BWA-Item2
+1.	BWA-List1
+2.	BWA-List2
+a.	BWA-SubItem1
+b.	BWA-SubItem2
+i.	BWA-SubList1
+ii.	BWA-SubList2
+
+END OF SECTION

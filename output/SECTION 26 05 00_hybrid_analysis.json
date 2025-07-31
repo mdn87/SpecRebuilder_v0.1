@@ -1,0 +1,1163 @@
+{
+  "document_info": {
+    "path": "examples/SECTION 26 05 00.docx",
+    "filename": "SECTION 26 05 00.docx",
+    "total_paragraphs": 101
+  },
+  "structure_analysis": {
+    "numbered_paragraphs": 38,
+    "inferred_paragraphs": 60,
+    "unnumbered_paragraphs": 3,
+    "total_numbered": 98,
+    "numbering_percentage": 97.02970297029702
+  },
+  "numbering_patterns": {
+    "1.0": 1,
+    "1.01": 2,
+    "1.02": 1,
+    "1.03": 1,
+    "1.04": 1,
+    "1.05": 1,
+    "1.06": 1,
+    "1.07": 1,
+    "1.": 3,
+    "2.": 3,
+    "3.": 2,
+    "4.": 2,
+    "5.": 1,
+    "6.": 1,
+    "7.": 1,
+    "8.": 1,
+    "9.": 1,
+    "10.": 1,
+    "11.": 1,
+    "12.": 1,
+    "13.": 1,
+    "14.": 1,
+    "15.": 1,
+    "16.": 1,
+    "17.": 1,
+    "18.": 1,
+    "19.": 1,
+    "20.": 1,
+    "21.": 1,
+    "22.": 1,
+    "23.": 1
+  },
+  "inferred_patterns": {
+    "A.": 14,
+    "B.": 14,
+    "C.": 8,
+    "D.": 6,
+    "E.": 2,
+    "2.0": 1,
+    "1.": 1,
+    "2.": 1,
+    "3.": 1,
+    "4.": 1,
+    "5.": 1,
+    "6.": 1,
+    "2.02": 1,
+    "F.": 1,
+    "G.": 1,
+    "2.03": 1,
+    "3.0": 1,
+    "3.01": 1,
+    "3.02": 1,
+    "3.03": 1,
+    "3.04": 1
+  },
+  "sample_paragraphs": [
+    {
+      "index": 0,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "SECTION 26 05 00",
+      "combined": "SECTION 26 05 00",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 1,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "Common Work Results for Electrical",
+      "combined": "Common Work Results for Electrical",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 2,
+      "list_number": "1.0",
+      "inferred_number": null,
+      "text": "GENERAL",
+      "combined": "1.0\tGENERAL",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 3,
+      "list_number": "1.01",
+      "inferred_number": null,
+      "text": "SCOPE",
+      "combined": "1.01\tSCOPE",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 4,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tDivision 26 includes all Specifications in the 26 00 00 Series and the accompanying Electrical D...",
+      "combined": "\tA.\tDivision 26 includes all Specifications in the 26 00 00 Series and the accompanying Electrical D...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 5,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tAttention is called to the fact that there are many interfaces between the work required in this...",
+      "combined": "\tB.\tAttention is called to the fact that there are many interfaces between the work required in this...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 6,
+      "list_number": "1.02",
+      "inferred_number": null,
+      "text": "EXISTING CONDITIONS",
+      "combined": "1.02\tEXISTING CONDITIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 7,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAttention is called to the fact that the work is to be performed within an existing, operational...",
+      "combined": "\tA.\tAttention is called to the fact that the work is to be performed within an existing, operational...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 8,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tWhen this project is finished, the work under this Division shall be complete in every respect, ...",
+      "combined": "\tB.\tWhen this project is finished, the work under this Division shall be complete in every respect, ...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 9,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tConnect new work to existing work in a neat and workmanlike manner.  Where an existing structure...",
+      "combined": "\tC.\tConnect new work to existing work in a neat and workmanlike manner.  Where an existing structure...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 10,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "\tD.\tPrior to the start of any demolition or construction, secure the services of a qualified, EPA Ce...",
+      "combined": "\tD.\tPrior to the start of any demolition or construction, secure the services of a qualified, EPA Ce...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 11,
+      "list_number": "1.03",
+      "inferred_number": null,
+      "text": "CODES AND REGULATIONS",
+      "combined": "1.03\tCODES AND REGULATIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 12,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAll work under this Division shall comply with all local building codes, laws, regulations, ordi...",
+      "combined": "\tA.\tAll work under this Division shall comply with all local building codes, laws, regulations, ordi...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 13,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tWhere conflicts of installation requirements occur between the aforementioned codes, regulations...",
+      "combined": "\tB.\tWhere conflicts of installation requirements occur between the aforementioned codes, regulations...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 14,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tObtain all permits and licenses and pay all fees required by local authorities.  Arrange for all...",
+      "combined": "\tC.\tObtain all permits and licenses and pay all fees required by local authorities.  Arrange for all...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 15,
+      "list_number": "1.04",
+      "inferred_number": null,
+      "text": "DEFINITIONS",
+      "combined": "1.04\tDEFINITIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 16,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tContract Documents:  The complete set of project Drawings and Specifications.",
+      "combined": "\tA.\tContract Documents:  The complete set of project Drawings and Specifications.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 17,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tProvide:  Furnish, install and connect.",
+      "combined": "\tB.\tProvide:  Furnish, install and connect.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 18,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tWork:  All materials installed, including all labor to provide complete system.",
+      "combined": "\tC.\tWork:  All materials installed, including all labor to provide complete system.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 19,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "\tD.\tWiring or Wired:  All wire or cable installed in conduit from panelboard to equipment and connec...",
+      "combined": "\tD.\tWiring or Wired:  All wire or cable installed in conduit from panelboard to equipment and connec...",
+      "level": null,
+      "deduction_method": "text_pattern"
+    }
+  ],
+  "all_paragraphs": [
+    {
+      "index": 0,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "SECTION 26 05 00",
+      "combined": "SECTION 26 05 00",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 1,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "Common Work Results for Electrical",
+      "combined": "Common Work Results for Electrical",
+      "level": null,
+      "deduction_method": null
+    },
+    {
+      "index": 2,
+      "list_number": "1.0",
+      "inferred_number": null,
+      "text": "GENERAL",
+      "combined": "1.0\tGENERAL",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 3,
+      "list_number": "1.01",
+      "inferred_number": null,
+      "text": "SCOPE",
+      "combined": "1.01\tSCOPE",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 4,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tDivision 26 includes all Specifications in the 26 00 00 Series and the accompanying Electrical Drawings.  Provide all labor, materials and equipment, and all necessary operations to provide the complete scope of the electrical systems intended under this Division.  Division 26 is not a stand alone document, but a part of the complete Project Documents.",
+      "combined": "\tA.\tDivision 26 includes all Specifications in the 26 00 00 Series and the accompanying Electrical Drawings.  Provide all labor, materials and equipment, and all necessary operations to provide the complete scope of the electrical systems intended under this Division.  Division 26 is not a stand alone document, but a part of the complete Project Documents.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 5,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tAttention is called to the fact that there are many interfaces between the work required in this Division and the work required in other Divisions.  Provide the necessary interface and coordination with other Divisions to provide a complete project.",
+      "combined": "\tB.\tAttention is called to the fact that there are many interfaces between the work required in this Division and the work required in other Divisions.  Provide the necessary interface and coordination with other Divisions to provide a complete project.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 6,
+      "list_number": "1.02",
+      "inferred_number": null,
+      "text": "EXISTING CONDITIONS",
+      "combined": "1.02\tEXISTING CONDITIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 7,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAttention is called to the fact that the work is to be performed within an existing, operational facility.  Prior to the submission of bids, each bidder shall visit the project site, thoroughly investigate and be familiar with all existing conditions, which will affect their work; especially the work to be performed above the existing ceilings.",
+      "combined": "\tA.\tAttention is called to the fact that the work is to be performed within an existing, operational facility.  Prior to the submission of bids, each bidder shall visit the project site, thoroughly investigate and be familiar with all existing conditions, which will affect their work; especially the work to be performed above the existing ceilings.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 8,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tWhen this project is finished, the work under this Division shall be complete in every respect, completely integrated with all the existing systems, and left in perfect operating condition.  The electrical service to the building shall not be interrupted at any time without written coordination of the building's Owner.  All existing electrical equipment removed during the project shall be removed from the site after inspection of the building's Owner.  All existing electrical systems required to be operating at the project's completion or required to remain in use during the project shall be reconnected, replaced, rerouted or otherwise made to fit with proper workmanship techniques and left in safe working order.",
+      "combined": "\tB.\tWhen this project is finished, the work under this Division shall be complete in every respect, completely integrated with all the existing systems, and left in perfect operating condition.  The electrical service to the building shall not be interrupted at any time without written coordination of the building's Owner.  All existing electrical equipment removed during the project shall be removed from the site after inspection of the building's Owner.  All existing electrical systems required to be operating at the project's completion or required to remain in use during the project shall be reconnected, replaced, rerouted or otherwise made to fit with proper workmanship techniques and left in safe working order.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 9,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tConnect new work to existing work in a neat and workmanlike manner.  Where an existing structure must be cut or existing utilities interfere, such obstructions shall be bypassed, removed, replaced or relocated, patched and repaired.  Work disturbed or damaged shall be replaced or repaired to its prior condition.",
+      "combined": "\tC.\tConnect new work to existing work in a neat and workmanlike manner.  Where an existing structure must be cut or existing utilities interfere, such obstructions shall be bypassed, removed, replaced or relocated, patched and repaired.  Work disturbed or damaged shall be replaced or repaired to its prior condition.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 10,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "\tD.\tPrior to the start of any demolition or construction, secure the services of a qualified, EPA Certified asbestos abatement agency to check the existing insulation, etc. for asbestos.  Should asbestos be found, do not proceed with demolition or construction; notify the Architect in any case in writing of the agency's findings. ",
+      "combined": "\tD.\tPrior to the start of any demolition or construction, secure the services of a qualified, EPA Certified asbestos abatement agency to check the existing insulation, etc. for asbestos.  Should asbestos be found, do not proceed with demolition or construction; notify the Architect in any case in writing of the agency's findings. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 11,
+      "list_number": "1.03",
+      "inferred_number": null,
+      "text": "CODES AND REGULATIONS",
+      "combined": "1.03\tCODES AND REGULATIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 12,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAll work under this Division shall comply with all local building codes, laws, regulations, ordinances and the requirements of the 2023 National Electrical Code.",
+      "combined": "\tA.\tAll work under this Division shall comply with all local building codes, laws, regulations, ordinances and the requirements of the 2023 National Electrical Code.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 13,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tWhere conflicts of installation requirements occur between the aforementioned codes, regulations or the Contract Documents, the most restrictive shall govern.",
+      "combined": "\tB.\tWhere conflicts of installation requirements occur between the aforementioned codes, regulations or the Contract Documents, the most restrictive shall govern.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 14,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tObtain all permits and licenses and pay all fees required by local authorities.  Arrange for all necessary inspections required by the authorities having jurisdiction and provide written certificates of approval to the project Owner or his designated representative.",
+      "combined": "\tC.\tObtain all permits and licenses and pay all fees required by local authorities.  Arrange for all necessary inspections required by the authorities having jurisdiction and provide written certificates of approval to the project Owner or his designated representative.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 15,
+      "list_number": "1.04",
+      "inferred_number": null,
+      "text": "DEFINITIONS",
+      "combined": "1.04\tDEFINITIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 16,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tContract Documents:  The complete set of project Drawings and Specifications.",
+      "combined": "\tA.\tContract Documents:  The complete set of project Drawings and Specifications.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 17,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tProvide:  Furnish, install and connect.",
+      "combined": "\tB.\tProvide:  Furnish, install and connect.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 18,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tWork:  All materials installed, including all labor to provide complete system.",
+      "combined": "\tC.\tWork:  All materials installed, including all labor to provide complete system.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 19,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "\tD.\tWiring or Wired:  All wire or cable installed in conduit from panelboard to equipment and connected at both ends with all required boxes, connectors, couplings, etc.",
+      "combined": "\tD.\tWiring or Wired:  All wire or cable installed in conduit from panelboard to equipment and connected at both ends with all required boxes, connectors, couplings, etc.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 20,
+      "list_number": "",
+      "inferred_number": "E.",
+      "text": "\tE.\tConduit:  Rigid steel conduit intermediate metal conduit (I.M.C.), electrical metallic tubing (EMT) plastic conduit (PVC), electrical non-metal tubing (ENT), or flexible steel conduit.",
+      "combined": "\tE.\tConduit:  Rigid steel conduit intermediate metal conduit (I.M.C.), electrical metallic tubing (EMT) plastic conduit (PVC), electrical non-metal tubing (ENT), or flexible steel conduit.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 21,
+      "list_number": "1.05",
+      "inferred_number": null,
+      "text": "DRAWINGS AND SPECIFICATIONS",
+      "combined": "1.05\tDRAWINGS AND SPECIFICATIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 22,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tThe Drawings and Specifications together are to be considered as the Contract Documents. Any work shown in one and not shown in the other, or implied by either, shall be provided to give a complete project.",
+      "combined": "\tA.\tThe Drawings and Specifications together are to be considered as the Contract Documents. Any work shown in one and not shown in the other, or implied by either, shall be provided to give a complete project.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 23,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tShould any conflicts exist between the Drawings and Specifications or there is an item shown/called for which is not clearly defined, immediately submit a request for clarification.  No additional monies will be granted later when a conflict is resolved or an item is more clearly defined.",
+      "combined": "\tB.\tShould any conflicts exist between the Drawings and Specifications or there is an item shown/called for which is not clearly defined, immediately submit a request for clarification.  No additional monies will be granted later when a conflict is resolved or an item is more clearly defined.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 24,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tThe Drawings are schematic and are not intended to show the exact location outlets, etc. or the routing of conduit.",
+      "combined": "\tC.\tThe Drawings are schematic and are not intended to show the exact location outlets, etc. or the routing of conduit.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 25,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "\tD.\tThe exact location of equipment requiring electrical connections (mechanical equipment, elevators, lights, etc.) shall be as located by other Divisions of the Contract Documents. Refer to the Architectural, Structural and Mechanical Documents for dimensions and details of building construction and provide work described in this Division so that it conforms to the details of the project.  The right is reserved to relocate any receptacle, switch or other outlet a maximum of 10'-0\" before it is permanently installed without incurring additions to the Contract amount.",
+      "combined": "\tD.\tThe exact location of equipment requiring electrical connections (mechanical equipment, elevators, lights, etc.) shall be as located by other Divisions of the Contract Documents. Refer to the Architectural, Structural and Mechanical Documents for dimensions and details of building construction and provide work described in this Division so that it conforms to the details of the project.  The right is reserved to relocate any receptacle, switch or other outlet a maximum of 10'-0\" before it is permanently installed without incurring additions to the Contract amount.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 26,
+      "list_number": "1.06",
+      "inferred_number": null,
+      "text": "SITE VISIT",
+      "combined": "1.06\tSITE VISIT",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 27,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tVisit the site and become familiar with all aspects of the site and existing conditions before submitting Contract price.",
+      "combined": "\tA.\tVisit the site and become familiar with all aspects of the site and existing conditions before submitting Contract price.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 28,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tNo allowance will be made for lack of knowledge of existing conditions.",
+      "combined": "\tB.\tNo allowance will be made for lack of knowledge of existing conditions.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 29,
+      "list_number": "1.07",
+      "inferred_number": null,
+      "text": "DEVIATIONS",
+      "combined": "1.07\tDEVIATIONS",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 30,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tNo deviations from the Contract Documents shall be made without the full knowledge and written consent of the Architect.",
+      "combined": "\tA.\tNo deviations from the Contract Documents shall be made without the full knowledge and written consent of the Architect.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 31,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tIf the existing conditions make it desirable to modify the Contract Documents in regard to any item, provide a written request to the Architect.",
+      "combined": "\tB.\tIf the existing conditions make it desirable to modify the Contract Documents in regard to any item, provide a written request to the Architect.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 32,
+      "list_number": "",
+      "inferred_number": "2.0",
+      "text": "2.0\tPRODUCTS",
+      "combined": "2.0\tPRODUCTS",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 33,
+      "list_number": "1.01",
+      "inferred_number": null,
+      "text": "2.01\tSTANDARDS FOR MATERIALS AND WORKMANSHIP",
+      "combined": "1.01\t2.01\tSTANDARDS FOR MATERIALS AND WORKMANSHIP",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 34,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAll materials used shall be new and shall be stamped with the label of Underwriters Laboratories, Inc. (UL), or other approved third-party listing agency. ",
+      "combined": "\tA.\tAll materials used shall be new and shall be stamped with the label of Underwriters Laboratories, Inc. (UL), or other approved third-party listing agency. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 35,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tAll materials shall meet the standards of the following associations and institutes where applicable:",
+      "combined": "\tB.\tAll materials shall meet the standards of the following associations and institutes where applicable:",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 36,
+      "list_number": "",
+      "inferred_number": "1.",
+      "text": "\t\t1.\tNational Fire Protection Association (NFPA)",
+      "combined": "\t\t1.\tNational Fire Protection Association (NFPA)",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 37,
+      "list_number": "",
+      "inferred_number": "2.",
+      "text": "\t\t2.\tAmerican Society of Testing Materials (ASTM)",
+      "combined": "\t\t2.\tAmerican Society of Testing Materials (ASTM)",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 38,
+      "list_number": "",
+      "inferred_number": "3.",
+      "text": "\t\t3.\tAmerican National Standards Institute (ANSI)",
+      "combined": "\t\t3.\tAmerican National Standards Institute (ANSI)",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 39,
+      "list_number": "",
+      "inferred_number": "4.",
+      "text": "\t\t4.\tNational Electrical Manufacturer's Association (NEMA)",
+      "combined": "\t\t4.\tNational Electrical Manufacturer's Association (NEMA)",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 40,
+      "list_number": "",
+      "inferred_number": "5.",
+      "text": "\t\t5.\tInstitute of Electrical and Electronic Engineers (IEEE)",
+      "combined": "\t\t5.\tInstitute of Electrical and Electronic Engineers (IEEE)",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 41,
+      "list_number": "",
+      "inferred_number": "6.",
+      "text": "\t\t6.\tNational Electrical Installation Standards (NECA)",
+      "combined": "\t\t6.\tNational Electrical Installation Standards (NECA)",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 42,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tManufacturer’s names and catalog numbers specified herein are intended to describe the material and set the standard of quality. All bids shall be based on material specified.  Requests for approval of material not specified shall be considered if the request is in written form and submitted to the Architect no later than fourteen (14) days before bid date.  All requests shall conform with the provisions of the general and supplementary conditions. If alternate/substitute equipment is submitted, it is the contractors responsibility to provide redesign required in order to make, a code compliant, complete working system.  ",
+      "combined": "\tC.\tManufacturer’s names and catalog numbers specified herein are intended to describe the material and set the standard of quality. All bids shall be based on material specified.  Requests for approval of material not specified shall be considered if the request is in written form and submitted to the Architect no later than fourteen (14) days before bid date.  All requests shall conform with the provisions of the general and supplementary conditions. If alternate/substitute equipment is submitted, it is the contractors responsibility to provide redesign required in order to make, a code compliant, complete working system.  ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 43,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "\tD.\tSamples of materials requested to be substituted shall be furnished upon the request of the Architect.",
+      "combined": "\tD.\tSamples of materials requested to be substituted shall be furnished upon the request of the Architect.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 44,
+      "list_number": "",
+      "inferred_number": "2.02",
+      "text": "2.02\tSHOP DRAWINGS AND SUBMITTAL",
+      "combined": "2.02\tSHOP DRAWINGS AND SUBMITTAL",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 45,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tThe Engineer's review of shop drawings or submittals is a cursory review to check for general compliances of submittals with the design intent of the Contract Documents.  The Engineer's review does not relieve the Contractor of his responsibility of complying with the Contract Documents.  All coordination of the work in strict compliance with the Contract Documents is the sole responsibility of the Contractor.",
+      "combined": "\tA.\tThe Engineer's review of shop drawings or submittals is a cursory review to check for general compliances of submittals with the design intent of the Contract Documents.  The Engineer's review does not relieve the Contractor of his responsibility of complying with the Contract Documents.  All coordination of the work in strict compliance with the Contract Documents is the sole responsibility of the Contractor.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 46,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tThe following items shall be submitted for review:",
+      "combined": "\tB.\tThe following items shall be submitted for review:",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 47,
+      "list_number": "1.",
+      "inferred_number": null,
+      "text": "Conduit and wire",
+      "combined": "1.\tConduit and wire",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 48,
+      "list_number": "2.",
+      "inferred_number": null,
+      "text": "Grounding system",
+      "combined": "2.\tGrounding system",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 49,
+      "list_number": "3.",
+      "inferred_number": null,
+      "text": "Devices",
+      "combined": "3.\tDevices",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 50,
+      "list_number": "4.",
+      "inferred_number": null,
+      "text": "Coverplates",
+      "combined": "4.\tCoverplates",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 51,
+      "list_number": "5.",
+      "inferred_number": null,
+      "text": "Under floor duct",
+      "combined": "5.\tUnder floor duct",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 52,
+      "list_number": "6.",
+      "inferred_number": null,
+      "text": "Metering equipment",
+      "combined": "6.\tMetering equipment",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 53,
+      "list_number": "7.",
+      "inferred_number": null,
+      "text": "Panelboards",
+      "combined": "7.\tPanelboards",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 54,
+      "list_number": "8.",
+      "inferred_number": null,
+      "text": "Switchboards",
+      "combined": "8.\tSwitchboards",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 55,
+      "list_number": "9.",
+      "inferred_number": null,
+      "text": "Transformers",
+      "combined": "9.\tTransformers",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 56,
+      "list_number": "10.",
+      "inferred_number": null,
+      "text": "Fuses",
+      "combined": "10.\tFuses",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 57,
+      "list_number": "11.",
+      "inferred_number": null,
+      "text": "Overcurrent devices",
+      "combined": "11.\tOvercurrent devices",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 58,
+      "list_number": "12.",
+      "inferred_number": null,
+      "text": "Busway",
+      "combined": "12.\tBusway",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 59,
+      "list_number": "13.",
+      "inferred_number": null,
+      "text": "Ground fault system",
+      "combined": "13.\tGround fault system",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 60,
+      "list_number": "14.",
+      "inferred_number": null,
+      "text": "Disconnect switches",
+      "combined": "14.\tDisconnect switches",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 61,
+      "list_number": "15.",
+      "inferred_number": null,
+      "text": "Lighting fixtures",
+      "combined": "15.\tLighting fixtures",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 62,
+      "list_number": "16.",
+      "inferred_number": null,
+      "text": "Lighting control system",
+      "combined": "16.\tLighting control system",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 63,
+      "list_number": "17.",
+      "inferred_number": null,
+      "text": "Dimming system",
+      "combined": "17.\tDimming system",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 64,
+      "list_number": "18.",
+      "inferred_number": null,
+      "text": "Life safety system",
+      "combined": "18.\tLife safety system",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 65,
+      "list_number": "19.",
+      "inferred_number": null,
+      "text": "Emergency system",
+      "combined": "19.\tEmergency system",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 66,
+      "list_number": "20.",
+      "inferred_number": null,
+      "text": "Motor starters",
+      "combined": "20.\tMotor starters",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 67,
+      "list_number": "21.",
+      "inferred_number": null,
+      "text": "Motor control center",
+      "combined": "21.\tMotor control center",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 68,
+      "list_number": "22.",
+      "inferred_number": null,
+      "text": "Surge Protective Devices",
+      "combined": "22.\tSurge Protective Devices",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 69,
+      "list_number": "23.",
+      "inferred_number": null,
+      "text": "Lightning Protection System",
+      "combined": "23.\tLightning Protection System",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 70,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tAll shop drawings and submittals shall be submitted in compliance with the requirements of the general and supplementary conditions. All submittals are to be received electronically in .pdf format only. ",
+      "combined": "\tC.\tAll shop drawings and submittals shall be submitted in compliance with the requirements of the general and supplementary conditions. All submittals are to be received electronically in .pdf format only. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 71,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "\tD.\tAll submittals shall bear the name of the manufacturer to be used. All selections to be made for product options critical to design.",
+      "combined": "\tD.\tAll submittals shall bear the name of the manufacturer to be used. All selections to be made for product options critical to design.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 72,
+      "list_number": "",
+      "inferred_number": "E.",
+      "text": "\tE.\tAll shop drawings and submittals shall include a stamped indication signifying that the submittal has been reviewed for compliance with the Contract Documents by the Electrical and General Contractors.  This stamped indication also represents the fact that the Contractor has checked this submittal for its interaction with all other Divisions and certifies by his signature or initials that all coordination has taken place.  The stamp shall include the date, name of the Contracting Firm, the signature of the Contractor, certification of compliance and approval.  This stamp shall be on the submittal before the Engineer will review it.",
+      "combined": "\tE.\tAll shop drawings and submittals shall include a stamped indication signifying that the submittal has been reviewed for compliance with the Contract Documents by the Electrical and General Contractors.  This stamped indication also represents the fact that the Contractor has checked this submittal for its interaction with all other Divisions and certifies by his signature or initials that all coordination has taken place.  The stamp shall include the date, name of the Contracting Firm, the signature of the Contractor, certification of compliance and approval.  This stamp shall be on the submittal before the Engineer will review it.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 73,
+      "list_number": "",
+      "inferred_number": "F.",
+      "text": "\tF.\tThe engineer will review an individual submittal not more than twice.  If the submittal is rejected again on the second review, the contractor will bare all responsibility for paying for the engineer's time for additional reviews.  Such payments to the engineer shall be withheld from the next monthly pay application.",
+      "combined": "\tF.\tThe engineer will review an individual submittal not more than twice.  If the submittal is rejected again on the second review, the contractor will bare all responsibility for paying for the engineer's time for additional reviews.  Such payments to the engineer shall be withheld from the next monthly pay application.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 74,
+      "list_number": "",
+      "inferred_number": "G.",
+      "text": "G. submittal to be dated upon creation. Engineer to have at least one (1) working week of review time.",
+      "combined": "G. submittal to be dated upon creation. Engineer to have at least one (1) working week of review time.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 75,
+      "list_number": "",
+      "inferred_number": "2.03",
+      "text": "2.03\tRECORD (AS-BUILT) DRAWINGS AND MAINTENANCE MANUALS",
+      "combined": "2.03\tRECORD (AS-BUILT) DRAWINGS AND MAINTENANCE MANUALS",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 76,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAt job completion, submit to the Architect, a set of prints showing all deviations from the Contract Documents.  The Drawings shall also have dimensions locating all underground conduits.",
+      "combined": "\tA.\tAt job completion, submit to the Architect, a set of prints showing all deviations from the Contract Documents.  The Drawings shall also have dimensions locating all underground conduits.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 77,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tAt job completion, submit to the Architect, color .pdf format document of maintenance, instruction manuals, final submittals, record shop drawings and sequence of operations for all equipment/systems furnished on the project. Confirm with owner if hard copies are required.",
+      "combined": "\tB.\tAt job completion, submit to the Architect, color .pdf format document of maintenance, instruction manuals, final submittals, record shop drawings and sequence of operations for all equipment/systems furnished on the project. Confirm with owner if hard copies are required.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 78,
+      "list_number": "",
+      "inferred_number": "3.0",
+      "text": "3.0\tEXECUTION",
+      "combined": "3.0\tEXECUTION",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 79,
+      "list_number": "",
+      "inferred_number": "3.01",
+      "text": "3.01\tCOORDINATION",
+      "combined": "3.01\tCOORDINATION",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 80,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tCoordinate all space requirements with all other Divisions before installing any work.  Install work such that adequate space will be allotted for all other work from other Divisions to be installed and also will allow room for future access for repair and maintenance.",
+      "combined": "\tA.\tCoordinate all space requirements with all other Divisions before installing any work.  Install work such that adequate space will be allotted for all other work from other Divisions to be installed and also will allow room for future access for repair and maintenance.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 81,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tAny work installed without proper coordination shall be relocated at the Architect's direction without increasing the contract price.",
+      "combined": "\tB.\tAny work installed without proper coordination shall be relocated at the Architect's direction without increasing the contract price.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 82,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tDuring the bidding process or the pricing for a guaranteed maximum price, coordinate with all other Divisions for the total amount of work required in Division 26, as well as, any alternate equipment that would cause deviations in the contract price.  Any work shown or implied in another Division requiring work in Division 26 shall be included in the contract price regardless of whether or not it is addressed in Division 26.",
+      "combined": "\tC.\tDuring the bidding process or the pricing for a guaranteed maximum price, coordinate with all other Divisions for the total amount of work required in Division 26, as well as, any alternate equipment that would cause deviations in the contract price.  Any work shown or implied in another Division requiring work in Division 26 shall be included in the contract price regardless of whether or not it is addressed in Division 26.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 83,
+      "list_number": "",
+      "inferred_number": "3.02",
+      "text": "3.02\tPROTECTION OF MATERIALS",
+      "combined": "3.02\tPROTECTION OF MATERIALS",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 84,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAll equipment shall have the original finish when the building is turned over to the Owner.",
+      "combined": "\tA.\tAll equipment shall have the original finish when the building is turned over to the Owner.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 85,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tProtect equipment during construction from dirt, water, chemical, mechanical damage, etc.  Protect all conduit openings so that no foreign material will enter the conduit.",
+      "combined": "\tB.\tProtect equipment during construction from dirt, water, chemical, mechanical damage, etc.  Protect all conduit openings so that no foreign material will enter the conduit.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 86,
+      "list_number": "",
+      "inferred_number": "3.03",
+      "text": "3.03\tTESTS, DEMONSTRATION AND INSTRUCTIONS ",
+      "combined": "3.03\tTESTS, DEMONSTRATION AND INSTRUCTIONS ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 87,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tFunctional Testing:",
+      "combined": "\tA.\tFunctional Testing:",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 88,
+      "list_number": "1.",
+      "inferred_number": null,
+      "text": "Test all systems described in this Division in the presence of the Owner or a designated representative upon completion of the work.  Demonstrate that the installation is in accordance with Contract Documents.",
+      "combined": "1.\tTest all systems described in this Division in the presence of the Owner or a designated representative upon completion of the work.  Demonstrate that the installation is in accordance with Contract Documents.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 89,
+      "list_number": "2.",
+      "inferred_number": null,
+      "text": "For all new lighting ad lighting control systems within the contract documents, the contractor shall obtain the service of a licensed professional engineer (registered in the state this project is within) to perform system commissioning in compliance with local energy conservation codes. The contractor shall demonstrate in the presence of the commissioning agent that the installation of such systems are in accordance with the contract documents.",
+      "combined": "2.\tFor all new lighting ad lighting control systems within the contract documents, the contractor shall obtain the service of a licensed professional engineer (registered in the state this project is within) to perform system commissioning in compliance with local energy conservation codes. The contractor shall demonstrate in the presence of the commissioning agent that the installation of such systems are in accordance with the contract documents.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 90,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tAny work found not to be in compliance with the Contract Documents shall be repaired or replaced without incurring any additions to the Contract price.",
+      "combined": "\tB.\tAny work found not to be in compliance with the Contract Documents shall be repaired or replaced without incurring any additions to the Contract price.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 91,
+      "list_number": "",
+      "inferred_number": "C.",
+      "text": "\tC.\tProvide to the Owner, all instruction on maintenance and operation of all systems and equipment provided under this Division.  Provide all necessary tools and personnel to thoroughly present these instructions. The documentation shall include the following, at a minimum:",
+      "combined": "\tC.\tProvide to the Owner, all instruction on maintenance and operation of all systems and equipment provided under this Division.  Provide all necessary tools and personnel to thoroughly present these instructions. The documentation shall include the following, at a minimum:",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 92,
+      "list_number": "1.",
+      "inferred_number": null,
+      "text": "Submittal data including all selected options.",
+      "combined": "1.\tSubmittal data including all selected options.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 93,
+      "list_number": "2.",
+      "inferred_number": null,
+      "text": "Operation and maintenance manual for all equipment and systems, Include routine maintenance actions and cleaning procedures.",
+      "combined": "2.\tOperation and maintenance manual for all equipment and systems, Include routine maintenance actions and cleaning procedures.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 94,
+      "list_number": "3.",
+      "inferred_number": null,
+      "text": "A schedule for inspecting and recalibrating, where applicable.",
+      "combined": "3.\tA schedule for inspecting and recalibrating, where applicable.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 95,
+      "list_number": "4.",
+      "inferred_number": null,
+      "text": "A narrative of how each system is intended to operate including any recommended set points where adjustment is available.",
+      "combined": "4.\tA narrative of how each system is intended to operate including any recommended set points where adjustment is available.",
+      "level": 1,
+      "deduction_method": null
+    },
+    {
+      "index": 96,
+      "list_number": "",
+      "inferred_number": "D.",
+      "text": "D.\tAt project completion, prior to obtaining Certificate of Occupancy, present at final inspection to the jurisdiction AHJ a signed and dated statement of system commissioning for all lighting and lighting control systems. The format of the statement of system commissioning shall be in the format of the state’s energy conservations codes and/or AHJ requirements. The document shall be signed by the contractor’s licensed professional representative. ",
+      "combined": "D.\tAt project completion, prior to obtaining Certificate of Occupancy, present at final inspection to the jurisdiction AHJ a signed and dated statement of system commissioning for all lighting and lighting control systems. The format of the statement of system commissioning shall be in the format of the state’s energy conservations codes and/or AHJ requirements. The document shall be signed by the contractor’s licensed professional representative. ",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 97,
+      "list_number": "",
+      "inferred_number": "3.04",
+      "text": "3.04\tGUARANTEE",
+      "combined": "3.04\tGUARANTEE",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 98,
+      "list_number": "",
+      "inferred_number": "A.",
+      "text": "\tA.\tAll systems, equipment, components, work, etc. provided under this Division shall be covered by a one year guarantee starting at the time of final acceptance of the work by the Owner.  Any defects in the work, systems, equipment or components found during this year shall be corrected at no charge.  The guarantee shall include providing all necessary cutting, patchwork, repainting, etc. to make the work complete and new.",
+      "combined": "\tA.\tAll systems, equipment, components, work, etc. provided under this Division shall be covered by a one year guarantee starting at the time of final acceptance of the work by the Owner.  Any defects in the work, systems, equipment or components found during this year shall be corrected at no charge.  The guarantee shall include providing all necessary cutting, patchwork, repainting, etc. to make the work complete and new.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 99,
+      "list_number": "",
+      "inferred_number": "B.",
+      "text": "\tB.\tPresent this guarantee and any additional warranties or guarantees on furnished equipment or systems to the Architect.  All equipment or system guarantees are in addition to the general guarantee.",
+      "combined": "\tB.\tPresent this guarantee and any additional warranties or guarantees on furnished equipment or systems to the Architect.  All equipment or system guarantees are in addition to the general guarantee.",
+      "level": null,
+      "deduction_method": "text_pattern"
+    },
+    {
+      "index": 100,
+      "list_number": "",
+      "inferred_number": null,
+      "text": "END OF SECTION",
+      "combined": "END OF SECTION",
+      "level": null,
+      "deduction_method": null
+    }
+  ]
+}
