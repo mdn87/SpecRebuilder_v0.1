@@ -1,0 +1,8 @@
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\WordNumberingRebuilder.exe
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\WordNumberingRebuilder.dll
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\WordNumberingRebuilder.deps.json
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\WordNumberingRebuilder.runtimeconfig.json
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\WordNumberingRebuilder.pdb
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\DocumentFormat.OpenXml.dll
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\DocumentFormat.OpenXml.Framework.dll
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\output\System.IO.Packaging.dll
