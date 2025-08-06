@@ -73,6 +73,10 @@ namespace SpecRebuilder
                 // Create numbering definitions
                 var numberingMap = CreateNumberingDefinitions(numberingPart, paragraphs);
                 
+                // Create styles and link them to numbering
+                var stylesPart = mainPart.StyleDefinitionsPart ?? mainPart.AddNewPart<StyleDefinitionsPart>();
+                CreateStylesWithNumbering(stylesPart, numberingMap);
+                
                 // Clear and rebuild document body
                 var body = mainPart.Document.Body;
                 if (body == null)
@@ -167,13 +171,9 @@ namespace SpecRebuilder
                 .OrderBy(l => l)
                 .ToList();
 
-            Console.WriteLine($"Creating numbering for levels: {string.Join(", ", levelsUsed)}");
-
             foreach (var level in levelsUsed)
             {
                 var listDef = GetListDefinition(level);
-                
-                Console.WriteLine($"  Level {level}: Format={listDef.NumFmt}, Text={listDef.LvlText}");
                 
                 var levelElement = new Level
                 {
@@ -181,9 +181,6 @@ namespace SpecRebuilder
                     TemplateCode = (HexBinaryValue)("0409" + level.ToString("X4")),
                     StartNumberingValue = new StartNumberingValue { Val = (Int32Value)1 }
                 };
-                
-                // Add level restart to ensure proper numbering sequence
-                levelElement.AppendChild(new LevelRestart { Val = (Int32Value)(level + 1) });
                 
                 levelElement.AppendChild(new NumberingFormat { Val = GetNumberFormatValue(listDef.NumFmt) });
                 levelElement.AppendChild(new LevelText { Val = listDef.LvlText });
@@ -214,8 +211,6 @@ namespace SpecRebuilder
                 numberingMap[level] = numId;
             }
 
-            Console.WriteLine($"Created numbering instance {numId} for all levels");
-
             return numberingMap;
         }
 
@@ -236,7 +231,7 @@ namespace SpecRebuilder
         {
             return level switch
             {
-                1 => new ListDefinition { Level = 1, NumFmt = "decimal", LvlText = "%1.", Indent = 720, Hanging = 360 },
+                1 => new ListDefinition { Level = 1, NumFmt = "decimal", LvlText = "%1.0", Indent = 720, Hanging = 360 },
                 2 => new ListDefinition { Level = 2, NumFmt = "decimal", LvlText = "%1.%2.", Indent = 1440, Hanging = 360 },
                 3 => new ListDefinition { Level = 3, NumFmt = "upperLetter", LvlText = "%1.", Indent = 2160, Hanging = 360 },
                 4 => new ListDefinition { Level = 4, NumFmt = "decimal", LvlText = "%1.", Indent = 2880, Hanging = 360 },
@@ -251,7 +246,7 @@ namespace SpecRebuilder
             var paragraph = new Paragraph();
             var pPr = new ParagraphProperties();
 
-            // Add numbering properties directly if this is a list item
+            // Add numbering properties if this is a list item
             if (paraInfo.IsListItem && paraInfo.Level.HasValue)
             {
                 var level = paraInfo.Level.Value;
@@ -261,16 +256,7 @@ namespace SpecRebuilder
                     numPr.AppendChild(new NumberingLevelReference { Val = (Int32Value)level });
                     numPr.AppendChild(new NumberingId { Val = (Int32Value)(int)numId });
                     pPr.AppendChild(numPr);
-                    Console.WriteLine($"Applied numbering level {level} with numId {numId} to: {paraInfo.DisplayText}");
                 }
-                else
-                {
-                    Console.WriteLine($"No numbering found for level {level}: {paraInfo.DisplayText}");
-                }
-            }
-            else
-            {
-                Console.WriteLine($"Not a list item: {paraInfo.DisplayText}");
             }
 
             paragraph.AppendChild(pPr);

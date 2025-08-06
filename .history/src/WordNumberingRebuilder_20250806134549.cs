@@ -73,6 +73,10 @@ namespace SpecRebuilder
                 // Create numbering definitions
                 var numberingMap = CreateNumberingDefinitions(numberingPart, paragraphs);
                 
+                // Create styles and link them to numbering
+                var stylesPart = mainPart.StyleDefinitionsPart ?? mainPart.AddNewPart<StyleDefinitionsPart>();
+                CreateStylesWithNumbering(stylesPart, numberingMap);
+                
                 // Clear and rebuild document body
                 var body = mainPart.Document.Body;
                 if (body == null)
@@ -182,9 +186,6 @@ namespace SpecRebuilder
                     StartNumberingValue = new StartNumberingValue { Val = (Int32Value)1 }
                 };
                 
-                // Add level restart to ensure proper numbering sequence
-                levelElement.AppendChild(new LevelRestart { Val = (Int32Value)(level + 1) });
-                
                 levelElement.AppendChild(new NumberingFormat { Val = GetNumberFormatValue(listDef.NumFmt) });
                 levelElement.AppendChild(new LevelText { Val = listDef.LvlText });
                 levelElement.AppendChild(new LevelJustification { Val = LevelJustificationValues.Left });
@@ -251,17 +252,15 @@ namespace SpecRebuilder
             var paragraph = new Paragraph();
             var pPr = new ParagraphProperties();
 
-            // Add numbering properties directly if this is a list item
+            // Apply style if this is a list item
             if (paraInfo.IsListItem && paraInfo.Level.HasValue)
             {
                 var level = paraInfo.Level.Value;
-                if (numberingMap.TryGetValue(level, out var numId))
+                if (numberingMap.ContainsKey(level))
                 {
-                    var numPr = new NumberingProperties();
-                    numPr.AppendChild(new NumberingLevelReference { Val = (Int32Value)level });
-                    numPr.AppendChild(new NumberingId { Val = (Int32Value)(int)numId });
-                    pPr.AppendChild(numPr);
-                    Console.WriteLine($"Applied numbering level {level} with numId {numId} to: {paraInfo.DisplayText}");
+                    var styleId = $"ListLevel{level}";
+                    pPr.AppendChild(new ParagraphStyleId { Val = styleId });
+                    Console.WriteLine($"Applied style {styleId} to: {paraInfo.DisplayText}");
                 }
                 else
                 {
@@ -282,6 +281,47 @@ namespace SpecRebuilder
             paragraph.AppendChild(run);
 
             return paragraph;
+        }
+
+        private void CreateStylesWithNumbering(StyleDefinitionsPart stylesPart, Dictionary<int, uint> numberingMap)
+        {
+            // Initialize styles if needed
+            if (stylesPart.Styles == null)
+            {
+                stylesPart.Styles = new Styles();
+            }
+
+            // Create a style for each level
+            foreach (var kvp in numberingMap)
+            {
+                var level = kvp.Key;
+                var numId = kvp.Value;
+                
+                var styleId = $"ListLevel{level}";
+                var styleName = $"List Level {level}";
+                
+                var style = new Style
+                {
+                    Type = StyleValues.Paragraph,
+                    StyleId = styleId,
+                    Default = false,
+                    CustomStyle = true
+                };
+                
+                style.AppendChild(new Name { Val = styleName });
+                style.AppendChild(new BasedOn { Val = "Normal" });
+                style.AppendChild(new NextParagraphStyle { Val = "Normal" });
+                
+                // Add paragraph properties with numbering
+                var pPr = new ParagraphProperties();
+                var numPr = new NumberingProperties();
+                numPr.AppendChild(new NumberingLevelReference { Val = (Int32Value)level });
+                numPr.AppendChild(new NumberingId { Val = (Int32Value)(int)numId });
+                pPr.AppendChild(numPr);
+                style.AppendChild(pPr);
+                
+                stylesPart.Styles.AppendChild(style);
+            }
         }
     }
 
