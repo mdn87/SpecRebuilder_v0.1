@@ -1,0 +1,940 @@
+{
+  "flexible_analysis": {
+    "total_blocks": 20,
+    "list_items": 18,
+    "non_list_items": 2,
+    "list_groups": 1,
+    "level_distribution": {
+      "0": 1,
+      "1": 1,
+      "2": 3,
+      "3": 5,
+      "4": 5,
+      "5": 3
+    },
+    "format_distribution": {
+      "decimal": 7,
+      "upperLetter": 4,
+      "lowerLetter": 6,
+      "lowerRoman": 1
+    },
+    "average_confidence": 0.9
+  },
+  "flexible_blocks": [
+    {
+      "index": 0,
+      "text": "SECTION 00 00 00",
+      "cleaned_content": "SECTION 00 00 00",
+      "level": null,
+      "num_fmt": null,
+      "list_id": null,
+      "numbering_pattern": null,
+      "inferred_number": null,
+      "is_list_item": false,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 0.0,
+      "parent_context": null
+    },
+    {
+      "index": 1,
+      "text": "SECTION TITLE",
+      "cleaned_content": "SECTION TITLE",
+      "level": null,
+      "num_fmt": null,
+      "list_id": null,
+      "numbering_pattern": null,
+      "inferred_number": null,
+      "is_list_item": false,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 0.0,
+      "parent_context": null
+    },
+    {
+      "index": 2,
+      "text": "BWA-PART",
+      "cleaned_content": "BWA-PART",
+      "level": 0,
+      "num_fmt": "decimal",
+      "list_id": 1,
+      "numbering_pattern": "1.0",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 3,
+      "text": "BWA-SUBSECTION1",
+      "cleaned_content": "BWA-SUBSECTION1",
+      "level": 1,
+      "num_fmt": "decimal",
+      "list_id": 1,
+      "numbering_pattern": "1.01",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 4,
+      "text": "BWA-Item1",
+      "cleaned_content": "BWA-Item1",
+      "level": 2,
+      "num_fmt": "upperLetter",
+      "list_id": 1,
+      "numbering_pattern": "A.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 5,
+      "text": "BWA-Item2",
+      "cleaned_content": "BWA-Item2",
+      "level": 2,
+      "num_fmt": "upperLetter",
+      "list_id": 1,
+      "numbering_pattern": "B.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 6,
+      "text": "BWA-List1",
+      "cleaned_content": "BWA-List1",
+      "level": 3,
+      "num_fmt": "decimal",
+      "list_id": 1,
+      "numbering_pattern": "1.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 7,
+      "text": "BWA-List2",
+      "cleaned_content": "BWA-List2",
+      "level": 3,
+      "num_fmt": "decimal",
+      "list_id": 1,
+      "numbering_pattern": "2.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 8,
+      "text": "BWA-SubItem1",
+      "cleaned_content": "BWA-SubItem1",
+      "level": 4,
+      "num_fmt": "lowerLetter",
+      "list_id": 1,
+      "numbering_pattern": "a.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 9,
+      "text": "BWA-SubItem2",
+      "cleaned_content": "BWA-SubItem2",
+      "level": 4,
+      "num_fmt": "lowerLetter",
+      "list_id": 1,
+      "numbering_pattern": "b.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 10,
+      "text": "BWA-SubList1",
+      "cleaned_content": "BWA-SubList1",
+      "level": 4,
+      "num_fmt": "lowerLetter",
+      "list_id": 1,
+      "numbering_pattern": "i.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 11,
+      "text": "BWA-SubList2",
+      "cleaned_content": "BWA-SubList2",
+      "level": 3,
+      "num_fmt": "lowerRoman",
+      "list_id": 1,
+      "numbering_pattern": "ii.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 12,
+      "text": "BWA-SUBSECTION2",
+      "cleaned_content": "BWA-SUBSECTION2",
+      "level": 2,
+      "num_fmt": "decimal",
+      "list_id": 1,
+      "numbering_pattern": "1.02",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 13,
+      "text": "BWA-Item1",
+      "cleaned_content": "BWA-Item1",
+      "level": 3,
+      "num_fmt": "upperLetter",
+      "list_id": 1,
+      "numbering_pattern": "A.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 14,
+      "text": "BWA-Item2",
+      "cleaned_content": "BWA-Item2",
+      "level": 3,
+      "num_fmt": "upperLetter",
+      "list_id": 1,
+      "numbering_pattern": "B.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 15,
+      "text": "BWA-List1",
+      "cleaned_content": "BWA-List1",
+      "level": 4,
+      "num_fmt": "decimal",
+      "list_id": 1,
+      "numbering_pattern": "1.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 16,
+      "text": "BWA-List2",
+      "cleaned_content": "BWA-List2",
+      "level": 4,
+      "num_fmt": "decimal",
+      "list_id": 1,
+      "numbering_pattern": "2.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 17,
+      "text": "BWA-SubItem1",
+      "cleaned_content": "BWA-SubItem1",
+      "level": 5,
+      "num_fmt": "lowerLetter",
+      "list_id": 1,
+      "numbering_pattern": "a.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 18,
+      "text": "BWA-SubItem2",
+      "cleaned_content": "BWA-SubItem2",
+      "level": 5,
+      "num_fmt": "lowerLetter",
+      "list_id": 1,
+      "numbering_pattern": "b.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    },
+    {
+      "index": 19,
+      "text": "BWA-SubList1",
+      "cleaned_content": "BWA-SubList1",
+      "level": 5,
+      "num_fmt": "lowerLetter",
+      "list_id": 1,
+      "numbering_pattern": "i.",
+      "inferred_number": null,
+      "is_list_item": true,
+      "indentation_level": null,
+      "context_hints": [],
+      "confidence_score": 1.0,
+      "parent_context": null
+    }
+  ],
+  "list_groups": [
+    [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  ],
+  "original_analysis": {
+    "document_info": {
+      "path": "examples/SECTION 00 00 00.docx",
+      "filename": "SECTION 00 00 00.docx",
+      "total_paragraphs": 42
+    },
+    "structure_analysis": {
+      "numbered_paragraphs": 38,
+      "inferred_paragraphs": 0,
+      "unnumbered_paragraphs": 4,
+      "total_numbered": 38,
+      "numbering_percentage": 90.47619047619048
+    },
+    "numbering_patterns": {
+      "1.0": 1,
+      "1.01": 1,
+      "A.": 4,
+      "B.": 4,
+      "1.": 4,
+      "2.": 4,
+      "a.": 4,
+      "b.": 4,
+      "i.": 4,
+      "ii.": 4,
+      "1.02": 1,
+      "2.0": 1,
+      "2.01": 1,
+      "2.02": 1
+    },
+    "inferred_patterns": {},
+    "sample_paragraphs": [
+      {
+        "index": 0,
+        "list_number": "",
+        "inferred_number": null,
+        "text": "SECTION 00 00 00",
+        "combined": "SECTION 00 00 00",
+        "level": null,
+        "deduction_method": null
+      },
+      {
+        "index": 1,
+        "list_number": "",
+        "inferred_number": null,
+        "text": "SECTION TITLE",
+        "combined": "SECTION TITLE",
+        "level": null,
+        "deduction_method": null
+      },
+      {
+        "index": 2,
+        "list_number": "1.0",
+        "inferred_number": null,
+        "text": "BWA-PART",
+        "combined": "1.0\tBWA-PART",
+        "level": 1,
+        "deduction_method": null
+      },
+      {
+        "index": 3,
+        "list_number": "1.01",
+        "inferred_number": null,
+        "text": "BWA-SUBSECTION1",
+        "combined": "1.01\tBWA-SUBSECTION1",
+        "level": 2,
+        "deduction_method": null
+      },
+      {
+        "index": 4,
+        "list_number": "A.",
+        "inferred_number": null,
+        "text": "BWA-Item1",
+        "combined": "A.\tBWA-Item1",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 5,
+        "list_number": "B.",
+        "inferred_number": null,
+        "text": "BWA-Item2",
+        "combined": "B.\tBWA-Item2",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 6,
+        "list_number": "1.",
+        "inferred_number": null,
+        "text": "BWA-List1",
+        "combined": "1.\tBWA-List1",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 7,
+        "list_number": "2.",
+        "inferred_number": null,
+        "text": "BWA-List2",
+        "combined": "2.\tBWA-List2",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 8,
+        "list_number": "a.",
+        "inferred_number": null,
+        "text": "BWA-SubItem1",
+        "combined": "a.\tBWA-SubItem1",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 9,
+        "list_number": "b.",
+        "inferred_number": null,
+        "text": "BWA-SubItem2",
+        "combined": "b.\tBWA-SubItem2",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 10,
+        "list_number": "i.",
+        "inferred_number": null,
+        "text": "BWA-SubList1",
+        "combined": "i.\tBWA-SubList1",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 11,
+        "list_number": "ii.",
+        "inferred_number": null,
+        "text": "BWA-SubList2",
+        "combined": "ii.\tBWA-SubList2",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 12,
+        "list_number": "1.02",
+        "inferred_number": null,
+        "text": "BWA-SUBSECTION2",
+        "combined": "1.02\tBWA-SUBSECTION2",
+        "level": 2,
+        "deduction_method": null
+      },
+      {
+        "index": 13,
+        "list_number": "A.",
+        "inferred_number": null,
+        "text": "BWA-Item1",
+        "combined": "A.\tBWA-Item1",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 14,
+        "list_number": "B.",
+        "inferred_number": null,
+        "text": "BWA-Item2",
+        "combined": "B.\tBWA-Item2",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 15,
+        "list_number": "1.",
+        "inferred_number": null,
+        "text": "BWA-List1",
+        "combined": "1.\tBWA-List1",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 16,
+        "list_number": "2.",
+        "inferred_number": null,
+        "text": "BWA-List2",
+        "combined": "2.\tBWA-List2",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 17,
+        "list_number": "a.",
+        "inferred_number": null,
+        "text": "BWA-SubItem1",
+        "combined": "a.\tBWA-SubItem1",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 18,
+        "list_number": "b.",
+        "inferred_number": null,
+        "text": "BWA-SubItem2",
+        "combined": "b.\tBWA-SubItem2",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 19,
+        "list_number": "i.",
+        "inferred_number": null,
+        "text": "BWA-SubList1",
+        "combined": "i.\tBWA-SubList1",
+        "level": 6,
+        "deduction_method": null
+      }
+    ],
+    "all_paragraphs": [
+      {
+        "index": 0,
+        "list_number": "",
+        "inferred_number": null,
+        "text": "SECTION 00 00 00",
+        "combined": "SECTION 00 00 00",
+        "level": null,
+        "deduction_method": null
+      },
+      {
+        "index": 1,
+        "list_number": "",
+        "inferred_number": null,
+        "text": "SECTION TITLE",
+        "combined": "SECTION TITLE",
+        "level": null,
+        "deduction_method": null
+      },
+      {
+        "index": 2,
+        "list_number": "1.0",
+        "inferred_number": null,
+        "text": "BWA-PART",
+        "combined": "1.0\tBWA-PART",
+        "level": 1,
+        "deduction_method": null
+      },
+      {
+        "index": 3,
+        "list_number": "1.01",
+        "inferred_number": null,
+        "text": "BWA-SUBSECTION1",
+        "combined": "1.01\tBWA-SUBSECTION1",
+        "level": 2,
+        "deduction_method": null
+      },
+      {
+        "index": 4,
+        "list_number": "A.",
+        "inferred_number": null,
+        "text": "BWA-Item1",
+        "combined": "A.\tBWA-Item1",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 5,
+        "list_number": "B.",
+        "inferred_number": null,
+        "text": "BWA-Item2",
+        "combined": "B.\tBWA-Item2",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 6,
+        "list_number": "1.",
+        "inferred_number": null,
+        "text": "BWA-List1",
+        "combined": "1.\tBWA-List1",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 7,
+        "list_number": "2.",
+        "inferred_number": null,
+        "text": "BWA-List2",
+        "combined": "2.\tBWA-List2",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 8,
+        "list_number": "a.",
+        "inferred_number": null,
+        "text": "BWA-SubItem1",
+        "combined": "a.\tBWA-SubItem1",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 9,
+        "list_number": "b.",
+        "inferred_number": null,
+        "text": "BWA-SubItem2",
+        "combined": "b.\tBWA-SubItem2",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 10,
+        "list_number": "i.",
+        "inferred_number": null,
+        "text": "BWA-SubList1",
+        "combined": "i.\tBWA-SubList1",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 11,
+        "list_number": "ii.",
+        "inferred_number": null,
+        "text": "BWA-SubList2",
+        "combined": "ii.\tBWA-SubList2",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 12,
+        "list_number": "1.02",
+        "inferred_number": null,
+        "text": "BWA-SUBSECTION2",
+        "combined": "1.02\tBWA-SUBSECTION2",
+        "level": 2,
+        "deduction_method": null
+      },
+      {
+        "index": 13,
+        "list_number": "A.",
+        "inferred_number": null,
+        "text": "BWA-Item1",
+        "combined": "A.\tBWA-Item1",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 14,
+        "list_number": "B.",
+        "inferred_number": null,
+        "text": "BWA-Item2",
+        "combined": "B.\tBWA-Item2",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 15,
+        "list_number": "1.",
+        "inferred_number": null,
+        "text": "BWA-List1",
+        "combined": "1.\tBWA-List1",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 16,
+        "list_number": "2.",
+        "inferred_number": null,
+        "text": "BWA-List2",
+        "combined": "2.\tBWA-List2",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 17,
+        "list_number": "a.",
+        "inferred_number": null,
+        "text": "BWA-SubItem1",
+        "combined": "a.\tBWA-SubItem1",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 18,
+        "list_number": "b.",
+        "inferred_number": null,
+        "text": "BWA-SubItem2",
+        "combined": "b.\tBWA-SubItem2",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 19,
+        "list_number": "i.",
+        "inferred_number": null,
+        "text": "BWA-SubList1",
+        "combined": "i.\tBWA-SubList1",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 20,
+        "list_number": "ii.",
+        "inferred_number": null,
+        "text": "BWA-SubList2",
+        "combined": "ii.\tBWA-SubList2",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 21,
+        "list_number": "2.0",
+        "inferred_number": null,
+        "text": "BWA-PART2",
+        "combined": "2.0\tBWA-PART2",
+        "level": 1,
+        "deduction_method": null
+      },
+      {
+        "index": 22,
+        "list_number": "2.01",
+        "inferred_number": null,
+        "text": "BWA-SUBSECTION1",
+        "combined": "2.01\tBWA-SUBSECTION1",
+        "level": 2,
+        "deduction_method": null
+      },
+      {
+        "index": 23,
+        "list_number": "A.",
+        "inferred_number": null,
+        "text": "BWA-Item1",
+        "combined": "A.\tBWA-Item1",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 24,
+        "list_number": "B.",
+        "inferred_number": null,
+        "text": "BWA-Item2",
+        "combined": "B.\tBWA-Item2",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 25,
+        "list_number": "1.",
+        "inferred_number": null,
+        "text": "BWA-List1",
+        "combined": "1.\tBWA-List1",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 26,
+        "list_number": "2.",
+        "inferred_number": null,
+        "text": "BWA-List2",
+        "combined": "2.\tBWA-List2",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 27,
+        "list_number": "a.",
+        "inferred_number": null,
+        "text": "BWA-SubItem1",
+        "combined": "a.\tBWA-SubItem1",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 28,
+        "list_number": "b.",
+        "inferred_number": null,
+        "text": "BWA-SubItem2",
+        "combined": "b.\tBWA-SubItem2",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 29,
+        "list_number": "i.",
+        "inferred_number": null,
+        "text": "BWA-SubList1",
+        "combined": "i.\tBWA-SubList1",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 30,
+        "list_number": "ii.",
+        "inferred_number": null,
+        "text": "BWA-SubList2",
+        "combined": "ii.\tBWA-SubList2",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 31,
+        "list_number": "2.02",
+        "inferred_number": null,
+        "text": "BWA-SUBSECTION2",
+        "combined": "2.02\tBWA-SUBSECTION2",
+        "level": 2,
+        "deduction_method": null
+      },
+      {
+        "index": 32,
+        "list_number": "A.",
+        "inferred_number": null,
+        "text": "BWA-Item1",
+        "combined": "A.\tBWA-Item1",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 33,
+        "list_number": "B.",
+        "inferred_number": null,
+        "text": "BWA-Item2",
+        "combined": "B.\tBWA-Item2",
+        "level": 3,
+        "deduction_method": null
+      },
+      {
+        "index": 34,
+        "list_number": "1.",
+        "inferred_number": null,
+        "text": "BWA-List1",
+        "combined": "1.\tBWA-List1",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 35,
+        "list_number": "2.",
+        "inferred_number": null,
+        "text": "BWA-List2",
+        "combined": "2.\tBWA-List2",
+        "level": 4,
+        "deduction_method": null
+      },
+      {
+        "index": 36,
+        "list_number": "a.",
+        "inferred_number": null,
+        "text": "BWA-SubItem1",
+        "combined": "a.\tBWA-SubItem1",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 37,
+        "list_number": "b.",
+        "inferred_number": null,
+        "text": "BWA-SubItem2",
+        "combined": "b.\tBWA-SubItem2",
+        "level": 5,
+        "deduction_method": null
+      },
+      {
+        "index": 38,
+        "list_number": "i.",
+        "inferred_number": null,
+        "text": "BWA-SubList1",
+        "combined": "i.\tBWA-SubList1",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 39,
+        "list_number": "ii.",
+        "inferred_number": null,
+        "text": "BWA-SubList2",
+        "combined": "ii.\tBWA-SubList2",
+        "level": 6,
+        "deduction_method": null
+      },
+      {
+        "index": 40,
+        "list_number": "",
+        "inferred_number": null,
+        "text": "",
+        "combined": "",
+        "level": null,
+        "deduction_method": null
+      },
+      {
+        "index": 41,
+        "list_number": "",
+        "inferred_number": null,
+        "text": "END OF SECTION",
+        "combined": "END OF SECTION",
+        "level": null,
+        "deduction_method": null
+      }
+    ]
+  }
+}
