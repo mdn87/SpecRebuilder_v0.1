@@ -1,0 +1,175 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection.Metadata;
+using System.Text.Json;
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
+
+namespace SpecRebuilder
+{
+    /// <summary>
+    /// Represents a paragraph from the JSON analysis
+    /// </summary>
+    public class ParagraphInfo
+    {
+        public string Text { get; set; } = "";
+        public string? ListNumber { get; set; }
+        public string? InferredNumber { get; set; }
+        public int? Level { get; set; }
+        public string? CleanedContent { get; set; }
+        public string? NumberingType { get; set; }
+        
+        public bool IsListItem => !string.IsNullOrEmpty(ListNumber) || !string.IsNullOrEmpty(InferredNumber);
+        public string DisplayText => !string.IsNullOrEmpty(CleanedContent) ? CleanedContent : Text;
+    }
+
+    /// <summary>
+    /// Represents a list definition for numbering
+    /// </summary>
+    public class ListDefinition
+    {
+        public int Level { get; set; }
+        public string NumFmt { get; set; } = "decimal";
+        public string LvlText { get; set; } = "%1.";
+        public int Indent { get; set; } = 720;
+        public int Hanging { get; set; } = 360;
+    }
+
+    /// <summary>
+    /// Word Numbering Rebuilder using Open XML SDK
+    /// </summary>
+    public class WordNumberingRebuilder
+    {
+        public static StreamWriter? _logWriter;
+        public static void Log(string message)
+        {
+            string logLine = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
+            Console.WriteLine(logLine);
+            _logWriter?.WriteLine(logLine);
+            _logWriter?.Flush();
+        }
+        public void Rebuild(string jsonPath, string templatePath, string outputPath)
+        {
+            string logPath = Path.Combine(Path.GetDirectoryName(outputPath) ?? ".", "WordNumberingRebuilder.txt");
+            using (_logWriter = new StreamWriter(logPath, append: true))
+            {
+                Console.WriteLine($"Loading JSON analysis from: {jsonPath}");
+                Log($"Loading JSON analysis from: {jsonPath}");
+
+                // Load JSON data
+                var jsonText = File.ReadAllText(jsonPath);
+                var jsonDoc = JsonDocument.Parse(jsonText);
+                var paragraphs = ParseJsonParagraphs(jsonDoc);
+                
+                Console.WriteLine($"Found {paragraphs.Count} paragraphs to process");
+                Log($"Found {paragraphs.Count} paragraphs to process");
+
+                // Copy template to output
+                File.Copy(templatePath, outputPath, overwrite: true);
+                
+                using (var doc = WordprocessingDocument.Open(outputPath, true))
+                {
+                    var mainPart = doc.MainDocumentPart;
+                    if (mainPart == null)
+                    {
+                        Log("Main document part is null");
+                        throw new InvalidOperationException("Main document part is null");
+                    }
+                    
+                    var numberingPart = mainPart.NumberingDefinitionsPart 
+                                      ?? mainPart.AddNewPart<NumberingDefinitionsPart>();
+
+                    // Clear existing numbering
+                    numberingPart.Numbering = new Numbering();
+
+                    // Create numbering definitions
+                    var numberingMap = CreateNumberingDefinitions(numberingPart, paragraphs);
+                    
+                    // Clear and rebuild document body
+                    var body = mainPart.Document.Body;
+                    if (body == null)
+                    {
+                        Log("Document body is null");
+                        throw new InvalidOperationException("Document body is null");
+                    }
+                    
+                    body.RemoveAllChildren();
+                    
+                    foreach (var paraInfo in paragraphs)
+                    {
+                        var paragraph = CreateParagraph(paraInfo, numberingMap);
+                        body.AppendChild(paragraph);
+                    }
+
+                    mainPart.Document.Save();
+                }
+                
+                Console.WriteLine($"Document saved to: {outputPath}");
+                Console.WriteLine("Document rebuild complete!");
+                Log($"Document saved to: {outputPath}");
+                Log("Document rebuild complete!");
+            }
+
+
+        }
+
+            // Load JSON data
+            var jsonText = File.ReadAllText(jsonPath);
+            var jsonDoc = JsonDocument.Parse(jsonText);
+            var paragraphs = ParseJsonParagraphs(jsonDoc);
+            
+                Console.WriteLine($"Found {paragraphs.Count} paragraphs to process");
+                Log($"Found {paragraphs.Count} paragraphs to process");
+
+            // Copy template to output
+            File.Copy(templatePath, outputPath, overwrite: true);
+            
+            using (var doc = WordprocessingDocument.Open(outputPath, true))
+            {
+                var mainPart = doc.MainDocumentPart;
+                if (mainPart == null)
+                {
+                    Log("Main document part is null");
+                    throw new InvalidOperationException("Main document part is null");
+                }
+                
+                var numberingPart = mainPart.NumberingDefinitionsPart 
+                                  ?? mainPart.AddNewPart<NumberingDefinitionsPart>();
+
+                // Clear existing numbering
+                numberingPart.Numbering = new Numbering();
+
+                // Create numbering definitions
+                var numberingMap = CreateNumberingDefinitions(numberingPart, paragraphs);
+                
+                // Clear and rebuild document body
+                var body = mainPart.Document.Body;
+                if (body == null)
+                {
+                    Log("Document body is null");
+                    throw new InvalidOperationException("Document body is null");
+                }
+                
+                body.RemoveAllChildren();
+                
+                foreach (var paraInfo in paragraphs)
+                {
+                    var paragraph = CreateParagraph(paraInfo, numberingMap);
+                    body.AppendChild(paragraph);
+                }
+
+                mainPart.Document.Save();
+            }
+            
+                Console.WriteLine($"Document saved to: {outputPath}");
+                Console.WriteLine("Document rebuild complete!");
+                Log($"Document saved to: {outputPath}");
+                Log("Document rebuild complete!");
+        }
+
+        
+    }
+}

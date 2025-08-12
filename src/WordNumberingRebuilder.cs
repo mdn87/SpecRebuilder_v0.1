@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text.Json;
+using System.Xml.Linq;
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
@@ -42,57 +44,95 @@ namespace SpecRebuilder
     /// </summary>
     public class WordNumberingRebuilder
     {
+        public static StreamWriter? _logWriter;
+        
+        public static void Log(string message)
+        {
+            string logLine = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
+            Console.WriteLine(logLine);
+            _logWriter?.WriteLine(logLine);
+            _logWriter?.Flush();
+        }
+        
         public void Rebuild(string jsonPath, string templatePath, string outputPath)
         {
-            Console.WriteLine($"Loading JSON analysis from: {jsonPath}");
-            
-            // Load JSON data
-            var jsonText = File.ReadAllText(jsonPath);
-            var jsonDoc = JsonDocument.Parse(jsonText);
-            var paragraphs = ParseJsonParagraphs(jsonDoc);
-            
-            Console.WriteLine($"Found {paragraphs.Count} paragraphs to process");
-            
-            // Copy template to output
-            File.Copy(templatePath, outputPath, overwrite: true);
-            
-            using (var doc = WordprocessingDocument.Open(outputPath, true))
+            string logPath = Path.Combine(Path.GetDirectoryName(outputPath) ?? ".", "WordNumberingRebuilder.txt");
+            using (_logWriter = new StreamWriter(logPath, append: true))
             {
-                var mainPart = doc.MainDocumentPart;
-                if (mainPart == null)
+                Console.WriteLine($"Loading JSON analysis from: {jsonPath}");
+                Log($"Loading JSON analysis from: {jsonPath}");
+
+                // Load JSON data
+                var jsonText = File.ReadAllText(jsonPath);
+                var jsonDoc = JsonDocument.Parse(jsonText);
+                var paragraphs = ParseJsonParagraphs(jsonDoc);
+                
+                Console.WriteLine($"Found {paragraphs.Count} paragraphs to process");
+                Log($"Found {paragraphs.Count} paragraphs to process");
+
+                // Copy template to output
+                File.Copy(templatePath, outputPath, overwrite: true);
+                
+                using (var doc = WordprocessingDocument.Open(outputPath, true))
                 {
-                    throw new InvalidOperationException("Main document part is null");
+                    var mainPart = doc.MainDocumentPart;
+                    if (mainPart == null)
+                    {
+                        Log("Main document part is null");
+                        throw new InvalidOperationException("Main document part is null");
+                    }
+                    
+                    var numberingPart = mainPart.NumberingDefinitionsPart 
+                                      ?? mainPart.AddNewPart<NumberingDefinitionsPart>();
+
+                    // Clear existing numbering
+                    numberingPart.Numbering = new Numbering();
+
+                    // Create numbering definitions
+                    var numberingMap = CreateNumberingDefinitions(numberingPart, paragraphs);
+                    
+                    // Clear and rebuild document body
+                    var body = mainPart.Document.Body;
+                    if (body == null)
+                    {
+                        Log("Document body is null");
+                        throw new InvalidOperationException("Document body is null");
+                    }
+                    
+                    body.RemoveAllChildren();
+                    
+                    foreach (var paraInfo in paragraphs)
+                    {
+                        var paragraph = CreateParagraph(paraInfo, numberingMap);
+                        body.AppendChild(paragraph);
+                        Log($"Added paragraph: {paraInfo.DisplayText} (ListNumber: {paraInfo.ListNumber}, Level: {paraInfo.Level})");
+                        Console.WriteLine($"Added paragraph: {paraInfo.DisplayText} (ListNumber: {paraInfo.ListNumber}, Level: {paraInfo.Level})");
+                    }
+
+                    if (mainPart != null && mainPart.Document != null)
+                    {
+                        // Get the XML as a string
+                        string xml = mainPart.Document.OuterXml;
+
+                        // Optionally, pretty-print using XDocument
+                        var xdoc = XDocument.Parse(xml);
+                        string prettyXml = xdoc.ToString();
+
+                        // Log to file
+                        Log("Current MainDocumentPart XML before save:");
+                        Log(prettyXml);
+                        Console.WriteLine("Current MainDocumentPart XML before save:");
+                        Console.WriteLine(prettyXml);
+                    }
+
+                    mainPart.Document.Save();
                 }
                 
-                var numberingPart = mainPart.NumberingDefinitionsPart 
-                                  ?? mainPart.AddNewPart<NumberingDefinitionsPart>();
-
-                // Clear existing numbering
-                numberingPart.Numbering = new Numbering();
-
-                // Create numbering definitions
-                var numberingMap = CreateNumberingDefinitions(numberingPart, paragraphs);
-                
-                // Clear and rebuild document body
-                var body = mainPart.Document.Body;
-                if (body == null)
-                {
-                    throw new InvalidOperationException("Document body is null");
-                }
-                
-                body.RemoveAllChildren();
-                
-                foreach (var paraInfo in paragraphs)
-                {
-                    var paragraph = CreateParagraph(paraInfo, numberingMap);
-                    body.AppendChild(paragraph);
-                }
-
-                mainPart.Document.Save();
+                Console.WriteLine($"Document saved to: {outputPath}");
+                Console.WriteLine("Document rebuild complete!");
+                Log($"Document saved to: {outputPath}");
+                Log("Document rebuild complete!");
             }
-            
-            Console.WriteLine($"Document saved to: {outputPath}");
-            Console.WriteLine("Document rebuild complete!");
         }
 
         private List<ParagraphInfo> ParseJsonParagraphs(JsonDocument jsonDoc)
@@ -147,18 +187,6 @@ namespace SpecRebuilder
         {
             var numberingMap = new Dictionary<int, uint>();
             
-            // Create a single multi-level numbering definition
-            var abstractId = 1U;
-            var numId = 1U;
-            
-            // Create AbstractNum for multi-level list
-            var abstractNum = new AbstractNum { AbstractNumberId = (Int32Value)(int)abstractId };
-            
-            // Add required properties for multi-level lists
-            abstractNum.AppendChild(new Nsid { Val = (HexBinaryValue)"12345678" }); // Unique ID
-            abstractNum.AppendChild(new MultiLevelType { Val = MultiLevelValues.HybridMultilevel });
-            abstractNum.AppendChild(new TemplateCode { Val = (HexBinaryValue)"0409000F" });
-            
             // Get distinct levels that need numbering
             var levelsUsed = paragraphs
                 .Where(p => p.IsListItem)
@@ -167,51 +195,74 @@ namespace SpecRebuilder
                 .OrderBy(l => l)
                 .ToList();
 
-            Console.WriteLine($"Creating numbering for levels: {string.Join(", ", levelsUsed)}");
+            Log($"Creating multilevel numbering for levels: {string.Join(", ", levelsUsed)}");
+            Console.WriteLine($"Creating multilevel numbering for levels: {string.Join(", ", levelsUsed)}");
 
+            // Create ONE AbstractNum with multiple levels (this is the key fix!)
+            var abstractNum = new AbstractNum { AbstractNumberId = (Int32Value)1 };
+            
+            // Add required properties for multilevel lists
+            abstractNum.AppendChild(new Nsid { Val = (HexBinaryValue)"12345678" });
+            abstractNum.AppendChild(new MultiLevelType { Val = MultiLevelValues.HybridMultilevel });
+            abstractNum.AppendChild(new TemplateCode { Val = (HexBinaryValue)"0409" });
+            
+            // Create level definitions for EACH level within the same AbstractNum
             foreach (var level in levelsUsed)
             {
                 var listDef = GetListDefinition(level);
                 
-                Console.WriteLine($"  Level {level}: Format={listDef.NumFmt}, Text={listDef.LvlText}");
-                
                 var levelElement = new Level
                 {
-                    LevelIndex = (Int32Value)level,
-                    TemplateCode = (HexBinaryValue)("0409" + level.ToString("X4")),
-                    StartNumberingValue = new StartNumberingValue { Val = (Int32Value)1 }
+                    LevelIndex = (Int32Value)level, // This is the key: each level gets its own LevelIndex
+                    TemplateCode = (HexBinaryValue)"0409"
                 };
+                
+                // Add start value for each level
+                levelElement.AppendChild(new StartNumberingValue { Val = (Int32Value)1 });
                 
                 levelElement.AppendChild(new NumberingFormat { Val = GetNumberFormatValue(listDef.NumFmt) });
-                levelElement.AppendChild(new LevelText { Val = listDef.LvlText });
+                
+                // Use proper multilevel text patterns
+                string levelText = level == 0 ? "%1." : level == 1 ? "%1.%2." : $"%{level + 1}.";
+                levelElement.AppendChild(new LevelText { Val = levelText });
+                
                 levelElement.AppendChild(new LevelJustification { Val = LevelJustificationValues.Left });
                 
-                var pPr = new ParagraphProperties();
+                // Add indentation based on level
                 var ind = new Indentation
                 {
-                    Left = listDef.Indent.ToString(),
-                    Hanging = listDef.Hanging.ToString()
+                    Left = (StringValue)(level * 720).ToString(), // 720 twips = 0.5 inch per level
+                    Hanging = (StringValue)"360"
                 };
-                pPr.AppendChild(ind);
-                levelElement.AppendChild(pPr);
+                levelElement.AppendChild(ind);
                 
                 abstractNum.AppendChild(levelElement);
+                
+                Log($"  Added Level {level}: Format={listDef.NumFmt}, Text={levelText}, Indent={level * 720}");
+                Console.WriteLine($"  Added Level {level}: Format={listDef.NumFmt}, Text={levelText}, Indent={level * 720}");
             }
             
             numberingPart.Numbering.AppendChild(abstractNum);
 
-            // Create NumberingInstance
-            var num = new NumberingInstance { NumberID = (Int32Value)(int)numId };
-            num.AppendChild(new AbstractNumId { Val = (Int32Value)(int)abstractId });
+            // Create ONE NumberingInstance that references the multilevel AbstractNum
+            var num = new NumberingInstance { NumberID = (Int32Value)1 };
+            num.AppendChild(new AbstractNumId { Val = (Int32Value)1 });
             numberingPart.Numbering.AppendChild(num);
 
-            // Map all levels to the same numbering instance
+            // Log the numbering definitions XML
+            Log("Numbering Definitions XML:");
+            Log(numberingPart.Numbering.OuterXml);
+            Console.WriteLine("Numbering Definitions XML:");
+            Console.WriteLine(numberingPart.Numbering.OuterXml);
+
+            // Map ALL levels to the SAME numbering instance (this is the key!)
             foreach (var level in levelsUsed)
             {
-                numberingMap[level] = numId;
+                numberingMap[level] = 1; // All levels use numId=1
             }
 
-            Console.WriteLine($"Created numbering instance {numId} for all levels");
+            Log($"Created ONE multilevel numbering instance (numId=1) with {levelsUsed.Count} levels");
+            Console.WriteLine($"Created ONE multilevel numbering instance (numId=1) with {levelsUsed.Count} levels");
 
             return numberingMap;
         }
@@ -255,18 +306,36 @@ namespace SpecRebuilder
                 if (numberingMap.TryGetValue(level, out var numId))
                 {
                     var numPr = new NumberingProperties();
-                    numPr.AppendChild(new NumberingLevelReference { Val = (Int32Value)level });
+                    numPr.AppendChild(new NumberingLevelReference { Val = (Int32Value)level }); // This is the ilvl - the actual level (0, 1, 2, 3, 4, 5)
                     numPr.AppendChild(new NumberingId { Val = (Int32Value)(int)numId });
+                    
+                    // Add start value if we have a specific number from the JSON
+                    if (!string.IsNullOrEmpty(paraInfo.ListNumber))
+                    {
+                        // Try to extract the numeric value from the list number
+                        var startValue = ExtractStartValue(paraInfo.ListNumber);
+                        if (startValue.HasValue)
+                        {
+                            // Set the start value for this numbering instance
+                            numPr.AppendChild(new StartNumberingValue { Val = (Int32Value)startValue.Value });
+                            Log($"Set start value to {startValue.Value} for: {paraInfo.DisplayText}");
+                            Console.WriteLine($"Set start value to {startValue.Value} for: {paraInfo.DisplayText}");
+                        }
+                    }
+                    
                     pPr.AppendChild(numPr);
-                    Console.WriteLine($"Applied numbering level {level} with numId {numId} to: {paraInfo.DisplayText}");
+                    Log($"Applied numbering level {level} with numId {numId} to: {paraInfo.DisplayText} (ListNumber: {paraInfo.ListNumber})");
+                    Console.WriteLine($"Applied numbering level {level} with numId {numId} to: {paraInfo.DisplayText} (ListNumber: {paraInfo.ListNumber})");
                 }
                 else
                 {
+                    Log($"No numbering found for level {level}: {paraInfo.DisplayText}");
                     Console.WriteLine($"No numbering found for level {level}: {paraInfo.DisplayText}");
                 }
             }
             else
             {
+                Log($"Not a list item: {paraInfo.DisplayText}");
                 Console.WriteLine($"Not a list item: {paraInfo.DisplayText}");
             }
 
@@ -280,6 +349,37 @@ namespace SpecRebuilder
 
             return paragraph;
         }
+        
+        private int? ExtractStartValue(string listNumber)
+        {
+            if (string.IsNullOrEmpty(listNumber))
+                return null;
+                
+            // Extract numeric value from patterns like "1.0", "1.01", "A.", "1.", etc.
+            var match = System.Text.RegularExpressions.Regex.Match(listNumber, @"^(\d+)");
+            if (match.Success && int.TryParse(match.Groups[1].Value, out var value))
+            {
+                return value;
+            }
+            
+            // For letter patterns, convert to number (A=1, B=2, etc.)
+            var letterMatch = System.Text.RegularExpressions.Regex.Match(listNumber, @"^([A-Z])");
+            if (letterMatch.Success)
+            {
+                var letter = letterMatch.Groups[1].Value[0];
+                return letter - 'A' + 1;
+            }
+            
+            // For lowercase letters
+            var lowerLetterMatch = System.Text.RegularExpressions.Regex.Match(listNumber, @"^([a-z])");
+            if (lowerLetterMatch.Success)
+            {
+                var letter = lowerLetterMatch.Groups[1].Value[0];
+                return letter - 'a' + 1;
+            }
+            
+            return null;
+        }
     }
 
     /// <summary>
@@ -287,11 +387,23 @@ namespace SpecRebuilder
     /// </summary>
     public class Program
     {
+        public static StreamWriter? _logWriter;
+        
+        public static void Log(string message)
+        {
+            string logLine = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
+            Console.WriteLine(logLine);
+            _logWriter?.WriteLine(logLine);
+            _logWriter?.Flush();
+        }
+        
         public static void Main(string[] args)
         {
             if (args.Length < 3)
             {
+                Log("Usage: WordNumberingRebuilder.exe <json_file> <template_docx> <output_docx>");
                 Console.WriteLine("Usage: WordNumberingRebuilder.exe <json_file> <template_docx> <output_docx>");
+                Log("Example: WordNumberingRebuilder.exe output/SECTION_00_00_00_hybrid_analysis.json output/complete_accuracy_check-fixed3.docx output/word_numbering_rebuilt.docx");
                 Console.WriteLine("Example: WordNumberingRebuilder.exe output/SECTION_00_00_00_hybrid_analysis.json output/complete_accuracy_check-fixed3.docx output/word_numbering_rebuilt.docx");
                 return;
             }
@@ -302,12 +414,14 @@ namespace SpecRebuilder
 
             if (!File.Exists(jsonPath))
             {
+                Log($"Error: JSON file not found: {jsonPath}");
                 Console.WriteLine($"Error: JSON file not found: {jsonPath}");
                 return;
             }
 
             if (!File.Exists(templatePath))
             {
+                Log($"Error: Template file not found: {templatePath}");
                 Console.WriteLine($"Error: Template file not found: {templatePath}");
                 return;
             }
@@ -326,9 +440,11 @@ namespace SpecRebuilder
             }
             catch (Exception ex)
             {
+                Log($"Error rebuilding document: {ex.Message}");
                 Console.WriteLine($"Error rebuilding document: {ex.Message}");
+                //Log(ex.StackTrace);
                 Console.WriteLine(ex.StackTrace);
             }
         }
     }
-} 
+}

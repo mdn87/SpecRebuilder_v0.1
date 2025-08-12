@@ -1,0 +1,1221 @@
+[2025-08-11 15:59:19] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-11 15:59:19] Found 20 paragraphs to process
+[2025-08-11 15:59:20] Creating numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-11 15:59:20]   Level 0: Format=decimal, Text=%1.
+[2025-08-11 15:59:20]   Level 1: Format=decimal, Text=%1.
+[2025-08-11 15:59:20]   Level 2: Format=decimal, Text=%1.%2.
+[2025-08-11 15:59:20]   Level 3: Format=upperLetter, Text=%1.
+[2025-08-11 15:59:20]   Level 4: Format=decimal, Text=%1.
+[2025-08-11 15:59:20]   Level 5: Format=lowerLetter, Text=%1.
+[2025-08-11 15:59:20] Created numbering instance 1 for all levels
+[2025-08-11 15:59:20] Not a list item: SECTION 00 00 00
+[2025-08-11 15:59:20] Not a list item: SECTION TITLE
+[2025-08-11 15:59:20] Applied numbering level 0 with numId 1 to: BWA-PART
+[2025-08-11 15:59:20] Applied numbering level 1 with numId 1 to: BWA-SUBSECTION1
+[2025-08-11 15:59:20] Applied numbering level 2 with numId 1 to: BWA-Item1
+[2025-08-11 15:59:20] Applied numbering level 2 with numId 1 to: BWA-Item2
+[2025-08-11 15:59:20] Applied numbering level 3 with numId 1 to: BWA-List1
+[2025-08-11 15:59:20] Applied numbering level 3 with numId 1 to: BWA-List2
+[2025-08-11 15:59:20] Applied numbering level 4 with numId 1 to: BWA-SubItem1
+[2025-08-11 15:59:20] Applied numbering level 4 with numId 1 to: BWA-SubItem2
+[2025-08-11 15:59:20] Applied numbering level 4 with numId 1 to: BWA-SubList1
+[2025-08-11 15:59:20] Applied numbering level 3 with numId 1 to: BWA-SubList2
+[2025-08-11 15:59:20] Applied numbering level 2 with numId 1 to: BWA-SUBSECTION2
+[2025-08-11 15:59:20] Applied numbering level 3 with numId 1 to: BWA-Item1
+[2025-08-11 15:59:20] Applied numbering level 3 with numId 1 to: BWA-Item2
+[2025-08-11 15:59:20] Applied numbering level 4 with numId 1 to: BWA-List1
+[2025-08-11 15:59:20] Applied numbering level 4 with numId 1 to: BWA-List2
+[2025-08-11 15:59:20] Applied numbering level 5 with numId 1 to: BWA-SubItem1
+[2025-08-11 15:59:20] Applied numbering level 5 with numId 1 to: BWA-SubItem2
+[2025-08-11 15:59:20] Applied numbering level 5 with numId 1 to: BWA-SubList1
+[2025-08-11 15:59:20] Document saved to: output/enhanced_logging_rebuilt.docx
+[2025-08-11 15:59:20] Document rebuild complete!
+[2025-08-12 09:20:20] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 09:20:20] Found 20 paragraphs to process
+[2025-08-12 09:20:20] Creating numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 09:20:20]   Level 0: Format=decimal, Text=%1., numId=1
+[2025-08-12 09:20:20]   Level 1: Format=decimal, Text=%1., numId=2
+[2025-08-12 09:20:20]   Level 2: Format=decimal, Text=%1., numId=3
+[2025-08-12 09:20:20]   Level 3: Format=upperLetter, Text=%1., numId=4
+[2025-08-12 09:20:20]   Level 4: Format=decimal, Text=%1., numId=5
+[2025-08-12 09:20:20]   Level 5: Format=lowerLetter, Text=%1., numId=6
+[2025-08-12 09:20:20] Created 6 separate numbering instances for proper sequencing
+[2025-08-12 09:20:20] Not a list item: SECTION 00 00 00
+[2025-08-12 09:20:20] Not a list item: SECTION TITLE
+[2025-08-12 09:20:20] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 09:20:20] Applied numbering level 1 with numId 2 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 09:20:20] Applied numbering level 2 with numId 3 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 09:20:20] Applied numbering level 2 with numId 3 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 09:20:20] Applied numbering level 3 with numId 4 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 09:20:20] Applied numbering level 3 with numId 4 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 09:20:20] Applied numbering level 4 with numId 5 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 09:20:20] Applied numbering level 4 with numId 5 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 09:20:20] Applied numbering level 4 with numId 5 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 09:20:20] Applied numbering level 3 with numId 4 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 09:20:20] Applied numbering level 2 with numId 3 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 09:20:20] Applied numbering level 3 with numId 4 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 09:20:20] Applied numbering level 3 with numId 4 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 09:20:20] Applied numbering level 4 with numId 5 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 09:20:20] Applied numbering level 4 with numId 5 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 09:20:20] Applied numbering level 5 with numId 6 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 09:20:20] Applied numbering level 5 with numId 6 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 09:20:20] Applied numbering level 5 with numId 6 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 09:20:20] Document saved to: output/fixed_numbering_rebuilt.docx
+[2025-08-12 09:20:20] Document rebuild complete!
+[2025-08-12 09:54:51] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 09:54:51] Found 20 paragraphs to process
+[2025-08-12 09:54:52] Creating numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 09:54:52]   Level 0: Format=decimal, Text=%1., numId=1
+[2025-08-12 09:54:52]   Level 1: Format=decimal, Text=%1., numId=2
+[2025-08-12 09:54:52]   Level 2: Format=decimal, Text=%1., numId=3
+[2025-08-12 09:54:52]   Level 3: Format=upperLetter, Text=%1., numId=4
+[2025-08-12 09:54:52]   Level 4: Format=decimal, Text=%1., numId=5
+[2025-08-12 09:54:52]   Level 5: Format=lowerLetter, Text=%1., numId=6
+[2025-08-12 09:54:52] Created 6 separate numbering instances for proper sequencing
+[2025-08-12 09:54:52] Not a list item: SECTION 00 00 00
+[2025-08-12 09:54:52] Added paragraph: SECTION 00 00 00 (ListNumber: , Level: )
+[2025-08-12 09:54:52] Not a list item: SECTION TITLE
+[2025-08-12 09:54:52] Added paragraph: SECTION TITLE (ListNumber: , Level: )
+[2025-08-12 09:54:52] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 09:54:52] Added paragraph: BWA-PART (ListNumber: 1.0, Level: 0)
+[2025-08-12 09:54:52] Applied numbering level 1 with numId 2 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 09:54:52] Added paragraph: BWA-SUBSECTION1 (ListNumber: 1.01, Level: 1)
+[2025-08-12 09:54:52] Applied numbering level 2 with numId 3 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 09:54:52] Added paragraph: BWA-Item1 (ListNumber: A., Level: 2)
+[2025-08-12 09:54:52] Applied numbering level 2 with numId 3 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 09:54:52] Added paragraph: BWA-Item2 (ListNumber: B., Level: 2)
+[2025-08-12 09:54:52] Applied numbering level 3 with numId 4 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 09:54:52] Added paragraph: BWA-List1 (ListNumber: 1., Level: 3)
+[2025-08-12 09:54:52] Applied numbering level 3 with numId 4 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 09:54:52] Added paragraph: BWA-List2 (ListNumber: 2., Level: 3)
+[2025-08-12 09:54:52] Applied numbering level 4 with numId 5 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 09:54:52] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 4)
+[2025-08-12 09:54:52] Applied numbering level 4 with numId 5 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 09:54:52] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 4)
+[2025-08-12 09:54:52] Applied numbering level 4 with numId 5 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 09:54:52] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 4)
+[2025-08-12 09:54:52] Applied numbering level 3 with numId 4 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 09:54:52] Added paragraph: BWA-SubList2 (ListNumber: ii., Level: 3)
+[2025-08-12 09:54:52] Applied numbering level 2 with numId 3 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 09:54:52] Added paragraph: BWA-SUBSECTION2 (ListNumber: 1.02, Level: 2)
+[2025-08-12 09:54:52] Applied numbering level 3 with numId 4 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 09:54:52] Added paragraph: BWA-Item1 (ListNumber: A., Level: 3)
+[2025-08-12 09:54:52] Applied numbering level 3 with numId 4 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 09:54:52] Added paragraph: BWA-Item2 (ListNumber: B., Level: 3)
+[2025-08-12 09:54:52] Applied numbering level 4 with numId 5 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 09:54:52] Added paragraph: BWA-List1 (ListNumber: 1., Level: 4)
+[2025-08-12 09:54:52] Applied numbering level 4 with numId 5 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 09:54:52] Added paragraph: BWA-List2 (ListNumber: 2., Level: 4)
+[2025-08-12 09:54:52] Applied numbering level 5 with numId 6 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 09:54:52] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 5)
+[2025-08-12 09:54:52] Applied numbering level 5 with numId 6 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 09:54:52] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 5)
+[2025-08-12 09:54:52] Applied numbering level 5 with numId 6 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 09:54:52] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 5)
+[2025-08-12 09:54:52] Document saved to: output/updated_logging_rebuilt.docx
+[2025-08-12 09:54:52] Document rebuild complete!
+[2025-08-12 09:55:28] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 09:55:28] Found 20 paragraphs to process
+[2025-08-12 09:55:28] Creating numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 09:55:28]   Level 0: Format=decimal, Text=%1., numId=1
+[2025-08-12 09:55:28]   Level 1: Format=decimal, Text=%1., numId=2
+[2025-08-12 09:55:28]   Level 2: Format=decimal, Text=%1., numId=3
+[2025-08-12 09:55:28]   Level 3: Format=upperLetter, Text=%1., numId=4
+[2025-08-12 09:55:28]   Level 4: Format=decimal, Text=%1., numId=5
+[2025-08-12 09:55:28]   Level 5: Format=lowerLetter, Text=%1., numId=6
+[2025-08-12 09:55:28] Created 6 separate numbering instances for proper sequencing
+[2025-08-12 09:55:28] Not a list item: SECTION 00 00 00
+[2025-08-12 09:55:28] Added paragraph: SECTION 00 00 00 (ListNumber: , Level: )
+[2025-08-12 09:55:28] Not a list item: SECTION TITLE
+[2025-08-12 09:55:28] Added paragraph: SECTION TITLE (ListNumber: , Level: )
+[2025-08-12 09:55:28] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 09:55:28] Added paragraph: BWA-PART (ListNumber: 1.0, Level: 0)
+[2025-08-12 09:55:28] Applied numbering level 1 with numId 2 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 09:55:28] Added paragraph: BWA-SUBSECTION1 (ListNumber: 1.01, Level: 1)
+[2025-08-12 09:55:28] Applied numbering level 2 with numId 3 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 09:55:28] Added paragraph: BWA-Item1 (ListNumber: A., Level: 2)
+[2025-08-12 09:55:28] Applied numbering level 2 with numId 3 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 09:55:28] Added paragraph: BWA-Item2 (ListNumber: B., Level: 2)
+[2025-08-12 09:55:28] Applied numbering level 3 with numId 4 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 09:55:28] Added paragraph: BWA-List1 (ListNumber: 1., Level: 3)
+[2025-08-12 09:55:28] Applied numbering level 3 with numId 4 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 09:55:28] Added paragraph: BWA-List2 (ListNumber: 2., Level: 3)
+[2025-08-12 09:55:28] Applied numbering level 4 with numId 5 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 09:55:28] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 4)
+[2025-08-12 09:55:28] Applied numbering level 4 with numId 5 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 09:55:28] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 4)
+[2025-08-12 09:55:28] Applied numbering level 4 with numId 5 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 09:55:28] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 4)
+[2025-08-12 09:55:28] Applied numbering level 3 with numId 4 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 09:55:28] Added paragraph: BWA-SubList2 (ListNumber: ii., Level: 3)
+[2025-08-12 09:55:28] Applied numbering level 2 with numId 3 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 09:55:28] Added paragraph: BWA-SUBSECTION2 (ListNumber: 1.02, Level: 2)
+[2025-08-12 09:55:28] Applied numbering level 3 with numId 4 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 09:55:28] Added paragraph: BWA-Item1 (ListNumber: A., Level: 3)
+[2025-08-12 09:55:28] Applied numbering level 3 with numId 4 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 09:55:28] Added paragraph: BWA-Item2 (ListNumber: B., Level: 3)
+[2025-08-12 09:55:28] Applied numbering level 4 with numId 5 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 09:55:28] Added paragraph: BWA-List1 (ListNumber: 1., Level: 4)
+[2025-08-12 09:55:28] Applied numbering level 4 with numId 5 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 09:55:28] Added paragraph: BWA-List2 (ListNumber: 2., Level: 4)
+[2025-08-12 09:55:28] Applied numbering level 5 with numId 6 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 09:55:28] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 5)
+[2025-08-12 09:55:28] Applied numbering level 5 with numId 6 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 09:55:28] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 5)
+[2025-08-12 09:55:28] Applied numbering level 5 with numId 6 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 09:55:28] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 5)
+[2025-08-12 09:55:28] Document saved to: output/updated_logging_rebuilt.docx
+[2025-08-12 09:55:28] Document rebuild complete!
+[2025-08-12 10:19:51] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 10:19:51] Found 20 paragraphs to process
+[2025-08-12 10:19:51] Creating numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 10:19:51]   Level 0: Format=decimal, Text=%1., numId=1
+[2025-08-12 10:19:51]   Level 1: Format=decimal, Text=%1., numId=2
+[2025-08-12 10:19:51]   Level 2: Format=decimal, Text=%1., numId=3
+[2025-08-12 10:19:51]   Level 3: Format=upperLetter, Text=%1., numId=4
+[2025-08-12 10:19:51]   Level 4: Format=decimal, Text=%1., numId=5
+[2025-08-12 10:19:51]   Level 5: Format=lowerLetter, Text=%1., numId=6
+[2025-08-12 10:19:51] Created 6 separate numbering instances for proper sequencing
+[2025-08-12 10:19:52] Not a list item: SECTION 00 00 00
+[2025-08-12 10:19:52] Added paragraph: SECTION 00 00 00 (ListNumber: , Level: )
+[2025-08-12 10:19:52] Not a list item: SECTION TITLE
+[2025-08-12 10:19:52] Added paragraph: SECTION TITLE (ListNumber: , Level: )
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-PART
+[2025-08-12 10:19:52] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 10:19:52] Added paragraph: BWA-PART (ListNumber: 1.0, Level: 0)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-SUBSECTION1
+[2025-08-12 10:19:52] Applied numbering level 1 with numId 2 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 10:19:52] Added paragraph: BWA-SUBSECTION1 (ListNumber: 1.01, Level: 1)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-Item1
+[2025-08-12 10:19:52] Applied numbering level 2 with numId 3 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 10:19:52] Added paragraph: BWA-Item1 (ListNumber: A., Level: 2)
+[2025-08-12 10:19:52] Set start value to 2 for: BWA-Item2
+[2025-08-12 10:19:52] Applied numbering level 2 with numId 3 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 10:19:52] Added paragraph: BWA-Item2 (ListNumber: B., Level: 2)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-List1
+[2025-08-12 10:19:52] Applied numbering level 3 with numId 4 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 10:19:52] Added paragraph: BWA-List1 (ListNumber: 1., Level: 3)
+[2025-08-12 10:19:52] Set start value to 2 for: BWA-List2
+[2025-08-12 10:19:52] Applied numbering level 3 with numId 4 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 10:19:52] Added paragraph: BWA-List2 (ListNumber: 2., Level: 3)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 10:19:52] Applied numbering level 4 with numId 5 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 10:19:52] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 4)
+[2025-08-12 10:19:52] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 10:19:52] Applied numbering level 4 with numId 5 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 10:19:52] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 4)
+[2025-08-12 10:19:52] Set start value to 9 for: BWA-SubList1
+[2025-08-12 10:19:52] Applied numbering level 4 with numId 5 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 10:19:52] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 4)
+[2025-08-12 10:19:52] Set start value to 9 for: BWA-SubList2
+[2025-08-12 10:19:52] Applied numbering level 3 with numId 4 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 10:19:52] Added paragraph: BWA-SubList2 (ListNumber: ii., Level: 3)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-SUBSECTION2
+[2025-08-12 10:19:52] Applied numbering level 2 with numId 3 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 10:19:52] Added paragraph: BWA-SUBSECTION2 (ListNumber: 1.02, Level: 2)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-Item1
+[2025-08-12 10:19:52] Applied numbering level 3 with numId 4 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 10:19:52] Added paragraph: BWA-Item1 (ListNumber: A., Level: 3)
+[2025-08-12 10:19:52] Set start value to 2 for: BWA-Item2
+[2025-08-12 10:19:52] Applied numbering level 3 with numId 4 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 10:19:52] Added paragraph: BWA-Item2 (ListNumber: B., Level: 3)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-List1
+[2025-08-12 10:19:52] Applied numbering level 4 with numId 5 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 10:19:52] Added paragraph: BWA-List1 (ListNumber: 1., Level: 4)
+[2025-08-12 10:19:52] Set start value to 2 for: BWA-List2
+[2025-08-12 10:19:52] Applied numbering level 4 with numId 5 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 10:19:52] Added paragraph: BWA-List2 (ListNumber: 2., Level: 4)
+[2025-08-12 10:19:52] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 10:19:52] Applied numbering level 5 with numId 6 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 10:19:52] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 5)
+[2025-08-12 10:19:52] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 10:19:52] Applied numbering level 5 with numId 6 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 10:19:52] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 5)
+[2025-08-12 10:19:52] Set start value to 9 for: BWA-SubList1
+[2025-08-12 10:19:52] Applied numbering level 5 with numId 6 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 10:19:52] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 5)
+[2025-08-12 10:19:52] Document saved to: output/start_value_fixed_rebuilt.docx
+[2025-08-12 10:19:52] Document rebuild complete!
+[2025-08-12 14:38:59] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 14:38:59] Found 20 paragraphs to process
+[2025-08-12 14:39:00] Creating multilevel numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 14:39:00]   Added Level 0: Format=decimal, Indent=0
+[2025-08-12 14:39:00]   Added Level 1: Format=decimal, Indent=720
+[2025-08-12 14:39:00]   Added Level 2: Format=decimal, Indent=1440
+[2025-08-12 14:39:00]   Added Level 3: Format=upperLetter, Indent=2160
+[2025-08-12 14:39:00]   Added Level 4: Format=decimal, Indent=2880
+[2025-08-12 14:39:00]   Added Level 5: Format=lowerLetter, Indent=3600
+[2025-08-12 14:39:00] Created ONE multilevel numbering instance (numId=1) with 6 levels
+[2025-08-12 14:39:00] Not a list item: SECTION 00 00 00
+[2025-08-12 14:39:00] Added paragraph: SECTION 00 00 00 (ListNumber: , Level: )
+[2025-08-12 14:39:00] Not a list item: SECTION TITLE
+[2025-08-12 14:39:00] Added paragraph: SECTION TITLE (ListNumber: , Level: )
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-PART
+[2025-08-12 14:39:00] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 14:39:00] Added paragraph: BWA-PART (ListNumber: 1.0, Level: 0)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-SUBSECTION1
+[2025-08-12 14:39:00] Applied numbering level 1 with numId 1 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 14:39:00] Added paragraph: BWA-SUBSECTION1 (ListNumber: 1.01, Level: 1)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:39:00] Applied numbering level 2 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:39:00] Added paragraph: BWA-Item1 (ListNumber: A., Level: 2)
+[2025-08-12 14:39:00] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:39:00] Applied numbering level 2 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:39:00] Added paragraph: BWA-Item2 (ListNumber: B., Level: 2)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-List1
+[2025-08-12 14:39:00] Applied numbering level 3 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:39:00] Added paragraph: BWA-List1 (ListNumber: 1., Level: 3)
+[2025-08-12 14:39:00] Set start value to 2 for: BWA-List2
+[2025-08-12 14:39:00] Applied numbering level 3 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:39:00] Added paragraph: BWA-List2 (ListNumber: 2., Level: 3)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:39:00] Applied numbering level 4 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:39:00] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 4)
+[2025-08-12 14:39:00] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:39:00] Applied numbering level 4 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:39:00] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 4)
+[2025-08-12 14:39:00] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:39:00] Applied numbering level 4 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:39:00] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 4)
+[2025-08-12 14:39:00] Set start value to 9 for: BWA-SubList2
+[2025-08-12 14:39:00] Applied numbering level 3 with numId 1 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 14:39:00] Added paragraph: BWA-SubList2 (ListNumber: ii., Level: 3)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-SUBSECTION2
+[2025-08-12 14:39:00] Applied numbering level 2 with numId 1 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 14:39:00] Added paragraph: BWA-SUBSECTION2 (ListNumber: 1.02, Level: 2)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:39:00] Applied numbering level 3 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:39:00] Added paragraph: BWA-Item1 (ListNumber: A., Level: 3)
+[2025-08-12 14:39:00] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:39:00] Applied numbering level 3 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:39:00] Added paragraph: BWA-Item2 (ListNumber: B., Level: 3)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-List1
+[2025-08-12 14:39:00] Applied numbering level 4 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:39:00] Added paragraph: BWA-List1 (ListNumber: 1., Level: 4)
+[2025-08-12 14:39:00] Set start value to 2 for: BWA-List2
+[2025-08-12 14:39:00] Applied numbering level 4 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:39:00] Added paragraph: BWA-List2 (ListNumber: 2., Level: 4)
+[2025-08-12 14:39:00] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:39:00] Applied numbering level 5 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:39:00] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 5)
+[2025-08-12 14:39:00] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:39:00] Applied numbering level 5 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:39:00] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 5)
+[2025-08-12 14:39:00] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:39:00] Applied numbering level 5 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:39:00] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 5)
+[2025-08-12 14:39:00] Document saved to: output/multilevel_fixed_rebuilt.docx
+[2025-08-12 14:39:00] Document rebuild complete!
+[2025-08-12 14:45:50] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 14:45:50] Found 20 paragraphs to process
+[2025-08-12 14:45:50] Creating multilevel numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 14:45:50]   Added Level 0: Format=decimal, Indent=0
+[2025-08-12 14:45:50]   Added Level 1: Format=decimal, Indent=720
+[2025-08-12 14:45:50]   Added Level 2: Format=decimal, Indent=1440
+[2025-08-12 14:45:50]   Added Level 3: Format=upperLetter, Indent=2160
+[2025-08-12 14:45:50]   Added Level 4: Format=decimal, Indent=2880
+[2025-08-12 14:45:50]   Added Level 5: Format=lowerLetter, Indent=3600
+[2025-08-12 14:45:50] Created ONE multilevel numbering instance (numId=1) with 6 levels
+[2025-08-12 14:45:51] Not a list item: SECTION 00 00 00
+[2025-08-12 14:45:51] Added paragraph: SECTION 00 00 00 (ListNumber: , Level: )
+[2025-08-12 14:45:51] Not a list item: SECTION TITLE
+[2025-08-12 14:45:51] Added paragraph: SECTION TITLE (ListNumber: , Level: )
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-PART
+[2025-08-12 14:45:51] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 14:45:51] Added paragraph: BWA-PART (ListNumber: 1.0, Level: 0)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-SUBSECTION1
+[2025-08-12 14:45:51] Applied numbering level 1 with numId 1 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 14:45:51] Added paragraph: BWA-SUBSECTION1 (ListNumber: 1.01, Level: 1)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:45:51] Applied numbering level 2 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:45:51] Added paragraph: BWA-Item1 (ListNumber: A., Level: 2)
+[2025-08-12 14:45:51] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:45:51] Applied numbering level 2 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:45:51] Added paragraph: BWA-Item2 (ListNumber: B., Level: 2)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-List1
+[2025-08-12 14:45:51] Applied numbering level 3 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:45:51] Added paragraph: BWA-List1 (ListNumber: 1., Level: 3)
+[2025-08-12 14:45:51] Set start value to 2 for: BWA-List2
+[2025-08-12 14:45:51] Applied numbering level 3 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:45:51] Added paragraph: BWA-List2 (ListNumber: 2., Level: 3)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:45:51] Applied numbering level 4 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:45:51] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 4)
+[2025-08-12 14:45:51] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:45:51] Applied numbering level 4 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:45:51] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 4)
+[2025-08-12 14:45:51] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:45:51] Applied numbering level 4 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:45:51] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 4)
+[2025-08-12 14:45:51] Set start value to 9 for: BWA-SubList2
+[2025-08-12 14:45:51] Applied numbering level 3 with numId 1 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 14:45:51] Added paragraph: BWA-SubList2 (ListNumber: ii., Level: 3)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-SUBSECTION2
+[2025-08-12 14:45:51] Applied numbering level 2 with numId 1 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 14:45:51] Added paragraph: BWA-SUBSECTION2 (ListNumber: 1.02, Level: 2)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:45:51] Applied numbering level 3 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:45:51] Added paragraph: BWA-Item1 (ListNumber: A., Level: 3)
+[2025-08-12 14:45:51] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:45:51] Applied numbering level 3 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:45:51] Added paragraph: BWA-Item2 (ListNumber: B., Level: 3)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-List1
+[2025-08-12 14:45:51] Applied numbering level 4 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:45:51] Added paragraph: BWA-List1 (ListNumber: 1., Level: 4)
+[2025-08-12 14:45:51] Set start value to 2 for: BWA-List2
+[2025-08-12 14:45:51] Applied numbering level 4 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:45:51] Added paragraph: BWA-List2 (ListNumber: 2., Level: 4)
+[2025-08-12 14:45:51] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:45:51] Applied numbering level 5 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:45:51] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 5)
+[2025-08-12 14:45:51] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:45:51] Applied numbering level 5 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:45:51] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 5)
+[2025-08-12 14:45:51] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:45:51] Applied numbering level 5 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:45:51] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 5)
+[2025-08-12 14:45:51] Current MainDocumentPart XML before save:
+[2025-08-12 14:45:51] <w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:p>
+      <w:pPr />
+      <w:r>
+        <w:t xml:space="preserve">SECTION 00 00 00</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr />
+      <w:r>
+        <w:t xml:space="preserve">SECTION TITLE</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-PART</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="1" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SUBSECTION1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SUBSECTION2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList1</w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:document>
+[2025-08-12 14:45:51] Document saved to: output/xml_logged_rebuilt.docx
+[2025-08-12 14:45:51] Document rebuild complete!
+[2025-08-12 14:52:51] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 14:52:51] Found 20 paragraphs to process
+[2025-08-12 14:52:51] Creating multilevel numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 14:52:51]   Added Level 0: Format=decimal, Indent=0
+[2025-08-12 14:52:51]   Added Level 1: Format=decimal, Indent=720
+[2025-08-12 14:52:51]   Added Level 2: Format=decimal, Indent=1440
+[2025-08-12 14:52:51]   Added Level 3: Format=upperLetter, Indent=2160
+[2025-08-12 14:52:51]   Added Level 4: Format=decimal, Indent=2880
+[2025-08-12 14:52:51]   Added Level 5: Format=lowerLetter, Indent=3600
+[2025-08-12 14:52:51] Numbering Definitions XML:
+[2025-08-12 14:52:51] <w:numbering xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:abstractNum w:abstractNumId="1"><w:nsid w:val="12345678" /><w:multiLevelType w:val="hybridMultilevel" /><w:tmpl w:val="0409" /><w:lvl w:ilvl="0" w:tplc="0409"><w:numFmt w:val="decimal" /><w:lvlText w:val="%1." /><w:lvlJc w:val="left" /><w:ind w:left="0" w:hanging="360" /></w:lvl><w:lvl w:ilvl="1" w:tplc="0409"><w:numFmt w:val="decimal" /><w:lvlText w:val="%1." /><w:lvlJc w:val="left" /><w:ind w:left="720" w:hanging="360" /></w:lvl><w:lvl w:ilvl="2" w:tplc="0409"><w:numFmt w:val="decimal" /><w:lvlText w:val="%1." /><w:lvlJc w:val="left" /><w:ind w:left="1440" w:hanging="360" /></w:lvl><w:lvl w:ilvl="3" w:tplc="0409"><w:numFmt w:val="upperLetter" /><w:lvlText w:val="%1." /><w:lvlJc w:val="left" /><w:ind w:left="2160" w:hanging="360" /></w:lvl><w:lvl w:ilvl="4" w:tplc="0409"><w:numFmt w:val="decimal" /><w:lvlText w:val="%1." /><w:lvlJc w:val="left" /><w:ind w:left="2880" w:hanging="360" /></w:lvl><w:lvl w:ilvl="5" w:tplc="0409"><w:numFmt w:val="lowerLetter" /><w:lvlText w:val="%1." /><w:lvlJc w:val="left" /><w:ind w:left="3600" w:hanging="360" /></w:lvl></w:abstractNum><w:num w:numId="1"><w:abstractNumId w:val="1" /></w:num></w:numbering>
+[2025-08-12 14:52:51] Created ONE multilevel numbering instance (numId=1) with 6 levels
+[2025-08-12 14:52:51] Not a list item: SECTION 00 00 00
+[2025-08-12 14:52:51] Added paragraph: SECTION 00 00 00 (ListNumber: , Level: )
+[2025-08-12 14:52:51] Not a list item: SECTION TITLE
+[2025-08-12 14:52:51] Added paragraph: SECTION TITLE (ListNumber: , Level: )
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-PART
+[2025-08-12 14:52:51] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 14:52:51] Added paragraph: BWA-PART (ListNumber: 1.0, Level: 0)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-SUBSECTION1
+[2025-08-12 14:52:51] Applied numbering level 1 with numId 1 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 14:52:51] Added paragraph: BWA-SUBSECTION1 (ListNumber: 1.01, Level: 1)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:52:51] Applied numbering level 2 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:52:51] Added paragraph: BWA-Item1 (ListNumber: A., Level: 2)
+[2025-08-12 14:52:51] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:52:51] Applied numbering level 2 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:52:51] Added paragraph: BWA-Item2 (ListNumber: B., Level: 2)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-List1
+[2025-08-12 14:52:51] Applied numbering level 3 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:52:51] Added paragraph: BWA-List1 (ListNumber: 1., Level: 3)
+[2025-08-12 14:52:51] Set start value to 2 for: BWA-List2
+[2025-08-12 14:52:51] Applied numbering level 3 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:52:51] Added paragraph: BWA-List2 (ListNumber: 2., Level: 3)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:52:51] Applied numbering level 4 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:52:51] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 4)
+[2025-08-12 14:52:51] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:52:51] Applied numbering level 4 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:52:51] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 4)
+[2025-08-12 14:52:51] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:52:51] Applied numbering level 4 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:52:51] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 4)
+[2025-08-12 14:52:51] Set start value to 9 for: BWA-SubList2
+[2025-08-12 14:52:51] Applied numbering level 3 with numId 1 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 14:52:51] Added paragraph: BWA-SubList2 (ListNumber: ii., Level: 3)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-SUBSECTION2
+[2025-08-12 14:52:51] Applied numbering level 2 with numId 1 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 14:52:51] Added paragraph: BWA-SUBSECTION2 (ListNumber: 1.02, Level: 2)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:52:51] Applied numbering level 3 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:52:51] Added paragraph: BWA-Item1 (ListNumber: A., Level: 3)
+[2025-08-12 14:52:51] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:52:51] Applied numbering level 3 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:52:51] Added paragraph: BWA-Item2 (ListNumber: B., Level: 3)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-List1
+[2025-08-12 14:52:51] Applied numbering level 4 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:52:51] Added paragraph: BWA-List1 (ListNumber: 1., Level: 4)
+[2025-08-12 14:52:51] Set start value to 2 for: BWA-List2
+[2025-08-12 14:52:51] Applied numbering level 4 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:52:51] Added paragraph: BWA-List2 (ListNumber: 2., Level: 4)
+[2025-08-12 14:52:51] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:52:51] Applied numbering level 5 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:52:51] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 5)
+[2025-08-12 14:52:51] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:52:51] Applied numbering level 5 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:52:51] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 5)
+[2025-08-12 14:52:51] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:52:51] Applied numbering level 5 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:52:51] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 5)
+[2025-08-12 14:52:51] Current MainDocumentPart XML before save:
+[2025-08-12 14:52:51] <w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:p>
+      <w:pPr />
+      <w:r>
+        <w:t xml:space="preserve">SECTION 00 00 00</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr />
+      <w:r>
+        <w:t xml:space="preserve">SECTION TITLE</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-PART</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="1" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SUBSECTION1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SUBSECTION2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList1</w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:document>
+[2025-08-12 14:52:52] Document saved to: output/numbering_xml_logged.docx
+[2025-08-12 14:52:52] Document rebuild complete!
+[2025-08-12 14:54:44] Loading JSON analysis from: output/SECTION 00 00 00_working_converted_v2.json
+[2025-08-12 14:54:44] Found 20 paragraphs to process
+[2025-08-12 14:54:44] Creating multilevel numbering for levels: 0, 1, 2, 3, 4, 5
+[2025-08-12 14:54:44]   Added Level 0: Format=decimal, Text=%1., Indent=0
+[2025-08-12 14:54:44]   Added Level 1: Format=decimal, Text=%1.%2., Indent=720
+[2025-08-12 14:54:44]   Added Level 2: Format=decimal, Text=%3., Indent=1440
+[2025-08-12 14:54:44]   Added Level 3: Format=upperLetter, Text=%4., Indent=2160
+[2025-08-12 14:54:44]   Added Level 4: Format=decimal, Text=%5., Indent=2880
+[2025-08-12 14:54:44]   Added Level 5: Format=lowerLetter, Text=%6., Indent=3600
+[2025-08-12 14:54:44] Numbering Definitions XML:
+[2025-08-12 14:54:44] <w:numbering xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:abstractNum w:abstractNumId="1"><w:nsid w:val="12345678" /><w:multiLevelType w:val="hybridMultilevel" /><w:tmpl w:val="0409" /><w:lvl w:ilvl="0" w:tplc="0409"><w:start w:val="1" /><w:numFmt w:val="decimal" /><w:lvlText w:val="%1." /><w:lvlJc w:val="left" /><w:ind w:left="0" w:hanging="360" /></w:lvl><w:lvl w:ilvl="1" w:tplc="0409"><w:start w:val="1" /><w:numFmt w:val="decimal" /><w:lvlText w:val="%1.%2." /><w:lvlJc w:val="left" /><w:ind w:left="720" w:hanging="360" /></w:lvl><w:lvl w:ilvl="2" w:tplc="0409"><w:start w:val="1" /><w:numFmt w:val="decimal" /><w:lvlText w:val="%3." /><w:lvlJc w:val="left" /><w:ind w:left="1440" w:hanging="360" /></w:lvl><w:lvl w:ilvl="3" w:tplc="0409"><w:start w:val="1" /><w:numFmt w:val="upperLetter" /><w:lvlText w:val="%4." /><w:lvlJc w:val="left" /><w:ind w:left="2160" w:hanging="360" /></w:lvl><w:lvl w:ilvl="4" w:tplc="0409"><w:start w:val="1" /><w:numFmt w:val="decimal" /><w:lvlText w:val="%5." /><w:lvlJc w:val="left" /><w:ind w:left="2880" w:hanging="360" /></w:lvl><w:lvl w:ilvl="5" w:tplc="0409"><w:start w:val="1" /><w:numFmt w:val="lowerLetter" /><w:lvlText w:val="%6." /><w:lvlJc w:val="left" /><w:ind w:left="3600" w:hanging="360" /></w:lvl></w:abstractNum><w:num w:numId="1"><w:abstractNumId w:val="1" /></w:num></w:numbering>
+[2025-08-12 14:54:44] Created ONE multilevel numbering instance (numId=1) with 6 levels
+[2025-08-12 14:54:44] Not a list item: SECTION 00 00 00
+[2025-08-12 14:54:44] Added paragraph: SECTION 00 00 00 (ListNumber: , Level: )
+[2025-08-12 14:54:44] Not a list item: SECTION TITLE
+[2025-08-12 14:54:44] Added paragraph: SECTION TITLE (ListNumber: , Level: )
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-PART
+[2025-08-12 14:54:44] Applied numbering level 0 with numId 1 to: BWA-PART (ListNumber: 1.0)
+[2025-08-12 14:54:44] Added paragraph: BWA-PART (ListNumber: 1.0, Level: 0)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-SUBSECTION1
+[2025-08-12 14:54:44] Applied numbering level 1 with numId 1 to: BWA-SUBSECTION1 (ListNumber: 1.01)
+[2025-08-12 14:54:44] Added paragraph: BWA-SUBSECTION1 (ListNumber: 1.01, Level: 1)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:54:44] Applied numbering level 2 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:54:44] Added paragraph: BWA-Item1 (ListNumber: A., Level: 2)
+[2025-08-12 14:54:44] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:54:44] Applied numbering level 2 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:54:44] Added paragraph: BWA-Item2 (ListNumber: B., Level: 2)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-List1
+[2025-08-12 14:54:44] Applied numbering level 3 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:54:44] Added paragraph: BWA-List1 (ListNumber: 1., Level: 3)
+[2025-08-12 14:54:44] Set start value to 2 for: BWA-List2
+[2025-08-12 14:54:44] Applied numbering level 3 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:54:44] Added paragraph: BWA-List2 (ListNumber: 2., Level: 3)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:54:44] Applied numbering level 4 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:54:44] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 4)
+[2025-08-12 14:54:44] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:54:44] Applied numbering level 4 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:54:44] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 4)
+[2025-08-12 14:54:44] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:54:44] Applied numbering level 4 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:54:44] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 4)
+[2025-08-12 14:54:44] Set start value to 9 for: BWA-SubList2
+[2025-08-12 14:54:44] Applied numbering level 3 with numId 1 to: BWA-SubList2 (ListNumber: ii.)
+[2025-08-12 14:54:44] Added paragraph: BWA-SubList2 (ListNumber: ii., Level: 3)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-SUBSECTION2
+[2025-08-12 14:54:44] Applied numbering level 2 with numId 1 to: BWA-SUBSECTION2 (ListNumber: 1.02)
+[2025-08-12 14:54:44] Added paragraph: BWA-SUBSECTION2 (ListNumber: 1.02, Level: 2)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-Item1
+[2025-08-12 14:54:44] Applied numbering level 3 with numId 1 to: BWA-Item1 (ListNumber: A.)
+[2025-08-12 14:54:44] Added paragraph: BWA-Item1 (ListNumber: A., Level: 3)
+[2025-08-12 14:54:44] Set start value to 2 for: BWA-Item2
+[2025-08-12 14:54:44] Applied numbering level 3 with numId 1 to: BWA-Item2 (ListNumber: B.)
+[2025-08-12 14:54:44] Added paragraph: BWA-Item2 (ListNumber: B., Level: 3)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-List1
+[2025-08-12 14:54:44] Applied numbering level 4 with numId 1 to: BWA-List1 (ListNumber: 1.)
+[2025-08-12 14:54:44] Added paragraph: BWA-List1 (ListNumber: 1., Level: 4)
+[2025-08-12 14:54:44] Set start value to 2 for: BWA-List2
+[2025-08-12 14:54:44] Applied numbering level 4 with numId 1 to: BWA-List2 (ListNumber: 2.)
+[2025-08-12 14:54:44] Added paragraph: BWA-List2 (ListNumber: 2., Level: 4)
+[2025-08-12 14:54:44] Set start value to 1 for: BWA-SubItem1
+[2025-08-12 14:54:44] Applied numbering level 5 with numId 1 to: BWA-SubItem1 (ListNumber: a.)
+[2025-08-12 14:54:44] Added paragraph: BWA-SubItem1 (ListNumber: a., Level: 5)
+[2025-08-12 14:54:44] Set start value to 2 for: BWA-SubItem2
+[2025-08-12 14:54:44] Applied numbering level 5 with numId 1 to: BWA-SubItem2 (ListNumber: b.)
+[2025-08-12 14:54:44] Added paragraph: BWA-SubItem2 (ListNumber: b., Level: 5)
+[2025-08-12 14:54:44] Set start value to 9 for: BWA-SubList1
+[2025-08-12 14:54:44] Applied numbering level 5 with numId 1 to: BWA-SubList1 (ListNumber: i.)
+[2025-08-12 14:54:44] Added paragraph: BWA-SubList1 (ListNumber: i., Level: 5)
+[2025-08-12 14:54:44] Current MainDocumentPart XML before save:
+[2025-08-12 14:54:44] <w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:p>
+      <w:pPr />
+      <w:r>
+        <w:t xml:space="preserve">SECTION 00 00 00</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr />
+      <w:r>
+        <w:t xml:space="preserve">SECTION TITLE</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-PART</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="1" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SUBSECTION1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SUBSECTION2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="3" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-Item2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="4" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-List2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="1" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem1</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="2" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubItem2</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="5" />
+          <w:numId w:val="1" />
+          <w:start w:val="9" />
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">BWA-SubList1</w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:document>
+[2025-08-12 14:54:44] Document saved to: output/corrected_numbering_rebuilt.docx
+[2025-08-12 14:54:44] Document rebuild complete!

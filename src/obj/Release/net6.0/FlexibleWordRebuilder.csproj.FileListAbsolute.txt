@@ -1,0 +1,6 @@
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\src\obj\Release\net6.0\FlexibleWordRebuilder.csproj.AssemblyReference.cache
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\src\obj\Release\net6.0\FlexibleWordRebuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\src\obj\Release\net6.0\FlexibleWordRebuilder.AssemblyInfoInputs.cache
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\src\obj\Release\net6.0\FlexibleWordRebuilder.AssemblyInfo.cs
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\src\obj\Release\net6.0\FlexibleWordRebuilder.csproj.CoreCompileInputs.cache
+C:\Users\mnewman\Documents\Admin\Spec Templates\SpecRebuilder_v0.1\src\obj\Release\net6.0\FlexibleWordRebuilder.sourcelink.json

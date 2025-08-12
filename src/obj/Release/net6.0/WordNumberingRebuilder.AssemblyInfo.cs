@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordNumberingRebuilder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c54a6f981213fd2a84f49771525dbb78c2991483")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dc96283784f1d96c1924257e2a4253eb27ef8c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordNumberingRebuilder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordNumberingRebuilder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
